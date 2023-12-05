@@ -1,0 +1,39 @@
+[0.102s] Invoking command in '/home/max/Documents/GitHub/IR2121/Navigation/nav/build/goal': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/max/ws/install/opencv_tests:/opt/ros/foxy /usr/bin/cmake --build /home/max/Documents/GitHub/IR2121/Navigation/nav/build/goal -- -j20 -l20
+[0.129s] [35m[1mScanning dependencies of target publisher[0m
+[0.144s] [ 50%] [32mBuilding CXX object CMakeFiles/publisher.dir/publisher.cpp.o[0m
+[0.814s] [01m[K/home/max/Documents/GitHub/IR2121/Navigation/nav/src/goal/publisher.cpp:[m[K In function ‘[01m[Kint main(int, char**)[m[K’:
+[0.814s] [01m[K/home/max/Documents/GitHub/IR2121/Navigation/nav/src/goal/publisher.cpp:28:28:[m[K [01;35m[Kwarning: [m[Ksuggest parentheses around comparison in operand of ‘[01m[K&[m[K’ [[01;35m[K-Wparentheses[m[K]
+[0.814s]    28 |   while (rclcpp::ok()& [01;35m[Kstop==0[m[K) {
+[0.814s]       |                        [01;35m[K~~~~^~~[m[K
+[0.819s] [01m[K/home/max/Documents/GitHub/IR2121/Navigation/nav/src/goal/publisher.cpp:34:16:[m[K [01;35m[Kwarning: [m[Kcomparisons like ‘[01m[KX<=Y<=Z[m[K’ do not have their mathematical meaning [[01;35m[K-Wparentheses[m[K]
+[0.819s]    34 |     if(([01;35m[Kpx1-0.2<pxs[m[K<px1+0.2)&(py1-0.2<pys<py1+0.2)&(pz1-0.2<pzs<pz1+0.2))
+[0.819s]       |         [01;35m[K~~~~~~~^~~~[m[K
+[0.819s] [01m[K/home/max/Documents/GitHub/IR2121/Navigation/nav/src/goal/publisher.cpp:34:38:[m[K [01;35m[Kwarning: [m[Kcomparisons like ‘[01m[KX<=Y<=Z[m[K’ do not have their mathematical meaning [[01;35m[K-Wparentheses[m[K]
+[0.819s]    34 |     if((px1-0.2<pxs<px1+0.2)&([01;35m[Kpy1-0.2<pys[m[K<py1+0.2)&(pz1-0.2<pzs<pz1+0.2))
+[0.819s]       |                               [01;35m[K~~~~~~~^~~~[m[K
+[0.819s] [01m[K/home/max/Documents/GitHub/IR2121/Navigation/nav/src/goal/publisher.cpp:34:60:[m[K [01;35m[Kwarning: [m[Kcomparisons like ‘[01m[KX<=Y<=Z[m[K’ do not have their mathematical meaning [[01;35m[K-Wparentheses[m[K]
+[0.819s]    34 |     if((px1-0.2<pxs<px1+0.2)&(py1-0.2<pys<py1+0.2)&([01;35m[Kpz1-0.2<pzs[m[K<pz1+0.2))
+[0.819s]       |                                                     [01;35m[K~~~~~~~^~~~[m[K
+[2.933s] [100%] [32m[1mLinking CXX executable publisher[0m
+[3.068s] [100%] Built target publisher
+[3.077s] Invoked command in '/home/max/Documents/GitHub/IR2121/Navigation/nav/build/goal' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/max/ws/install/opencv_tests:/opt/ros/foxy /usr/bin/cmake --build /home/max/Documents/GitHub/IR2121/Navigation/nav/build/goal -- -j20 -l20
+[3.098s] Invoking command in '/home/max/Documents/GitHub/IR2121/Navigation/nav/build/goal': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/max/ws/install/opencv_tests:/opt/ros/foxy /usr/bin/cmake --install /home/max/Documents/GitHub/IR2121/Navigation/nav/build/goal
+[3.103s] -- Install configuration: ""
+[3.103s] -- Installing: /home/max/Documents/GitHub/IR2121/Navigation/nav/install/goal/lib/goal/publisher
+[3.104s] -- Set runtime path of "/home/max/Documents/GitHub/IR2121/Navigation/nav/install/goal/lib/goal/publisher" to ""
+[3.104s] -- Up-to-date: /home/max/Documents/GitHub/IR2121/Navigation/nav/install/goal/share/ament_index/resource_index/package_run_dependencies/goal
+[3.105s] -- Up-to-date: /home/max/Documents/GitHub/IR2121/Navigation/nav/install/goal/share/ament_index/resource_index/parent_prefix_path/goal
+[3.105s] -- Up-to-date: /home/max/Documents/GitHub/IR2121/Navigation/nav/install/goal/share/goal/environment/ament_prefix_path.sh
+[3.105s] -- Up-to-date: /home/max/Documents/GitHub/IR2121/Navigation/nav/install/goal/share/goal/environment/ament_prefix_path.dsv
+[3.105s] -- Up-to-date: /home/max/Documents/GitHub/IR2121/Navigation/nav/install/goal/share/goal/environment/path.sh
+[3.105s] -- Up-to-date: /home/max/Documents/GitHub/IR2121/Navigation/nav/install/goal/share/goal/environment/path.dsv
+[3.105s] -- Up-to-date: /home/max/Documents/GitHub/IR2121/Navigation/nav/install/goal/share/goal/local_setup.bash
+[3.105s] -- Up-to-date: /home/max/Documents/GitHub/IR2121/Navigation/nav/install/goal/share/goal/local_setup.sh
+[3.105s] -- Up-to-date: /home/max/Documents/GitHub/IR2121/Navigation/nav/install/goal/share/goal/local_setup.zsh
+[3.105s] -- Up-to-date: /home/max/Documents/GitHub/IR2121/Navigation/nav/install/goal/share/goal/local_setup.dsv
+[3.105s] -- Installing: /home/max/Documents/GitHub/IR2121/Navigation/nav/install/goal/share/goal/package.dsv
+[3.105s] -- Up-to-date: /home/max/Documents/GitHub/IR2121/Navigation/nav/install/goal/share/ament_index/resource_index/packages/goal
+[3.105s] -- Up-to-date: /home/max/Documents/GitHub/IR2121/Navigation/nav/install/goal/share/goal/cmake/goalConfig.cmake
+[3.105s] -- Up-to-date: /home/max/Documents/GitHub/IR2121/Navigation/nav/install/goal/share/goal/cmake/goalConfig-version.cmake
+[3.105s] -- Up-to-date: /home/max/Documents/GitHub/IR2121/Navigation/nav/install/goal/share/goal/package.xml
+[3.106s] Invoked command in '/home/max/Documents/GitHub/IR2121/Navigation/nav/build/goal' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/max/ws/install/opencv_tests:/opt/ros/foxy /usr/bin/cmake --install /home/max/Documents/GitHub/IR2121/Navigation/nav/build/goal

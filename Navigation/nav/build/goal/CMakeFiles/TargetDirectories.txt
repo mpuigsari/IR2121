@@ -1,0 +1,10 @@
+/home/max/Documents/GitHub/IR2121/Navigation/nav/build/goal/CMakeFiles/install/local.dir
+/home/max/Documents/GitHub/IR2121/Navigation/nav/build/goal/CMakeFiles/install.dir
+/home/max/Documents/GitHub/IR2121/Navigation/nav/build/goal/CMakeFiles/list_install_components.dir
+/home/max/Documents/GitHub/IR2121/Navigation/nav/build/goal/CMakeFiles/rebuild_cache.dir
+/home/max/Documents/GitHub/IR2121/Navigation/nav/build/goal/CMakeFiles/edit_cache.dir
+/home/max/Documents/GitHub/IR2121/Navigation/nav/build/goal/CMakeFiles/test.dir
+/home/max/Documents/GitHub/IR2121/Navigation/nav/build/goal/CMakeFiles/install/strip.dir
+/home/max/Documents/GitHub/IR2121/Navigation/nav/build/goal/CMakeFiles/publisher.dir
+/home/max/Documents/GitHub/IR2121/Navigation/nav/build/goal/CMakeFiles/goal_uninstall.dir
+/home/max/Documents/GitHub/IR2121/Navigation/nav/build/goal/CMakeFiles/uninstall.dir

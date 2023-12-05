@@ -1,0 +1,25 @@
+[0.079s] Invoking command in '/home/max/Documents/GitHub/IR2121/Navigation/nav/build/goal': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/max/ws/install/opencv_tests:/opt/ros/foxy /usr/bin/cmake --build /home/max/Documents/GitHub/IR2121/Navigation/nav/build/goal -- -j20 -l20
+[0.106s] [35m[1mScanning dependencies of target publisher[0m
+[0.121s] [ 50%] [32mBuilding CXX object CMakeFiles/publisher.dir/publisher.cpp.o[0m
+[0.756s] [01m[K/home/max/Documents/GitHub/IR2121/Navigation/nav/src/goal/publisher.cpp:10:1:[m[K [01;31m[Kerror: [m[K‘[01m[Kgeometry_msg[m[K’ does not name a type; did you mean ‘[01m[Kgeometry_msgs[m[K’?
+[0.756s]    10 | [01;31m[Kgeometry_msg[m[K::msg::Pose sub_pose;
+[0.756s]       | [01;31m[K^~~~~~~~~~~~[m[K
+[0.756s]       | [32m[Kgeometry_msgs[m[K
+[0.758s] [01m[K/home/max/Documents/GitHub/IR2121/Navigation/nav/src/goal/publisher.cpp:[m[K In function ‘[01m[Kvoid topic_callback(nav_msgs::msg::Odometry_<std::allocator<void> >::SharedPtr)[m[K’:
+[0.758s] [01m[K/home/max/Documents/GitHub/IR2121/Navigation/nav/src/goal/publisher.cpp:13:2:[m[K [01;31m[Kerror: [m[K‘[01m[Ksub_pose[m[K’ was not declared in this scope
+[0.758s]    13 |  [01;31m[Ksub_pose[m[K = msg->pose;
+[0.758s]       |  [01;31m[K^~~~~~~~[m[K
+[0.766s] [01m[K/home/max/Documents/GitHub/IR2121/Navigation/nav/src/goal/publisher.cpp:[m[K In function ‘[01m[Kint main(int, char**)[m[K’:
+[0.766s] [01m[K/home/max/Documents/GitHub/IR2121/Navigation/nav/src/goal/publisher.cpp:26:18:[m[K [01;31m[Kerror: [m[K‘[01m[Kusing _pose_type = struct geometry_msgs::msg::Pose_<std::allocator<void> >[m[K’ {aka ‘[01m[Kstruct geometry_msgs::msg::Pose_<std::allocator<void> >[m[K’} has no member named ‘[01m[Kpoint[m[K’
+[0.766s]    26 |     message.pose.[01;31m[Kpoint[m[K.x = px1;
+[0.766s]       |                  [01;31m[K^~~~~[m[K
+[0.766s] [01m[K/home/max/Documents/GitHub/IR2121/Navigation/nav/src/goal/publisher.cpp:27:18:[m[K [01;31m[Kerror: [m[K‘[01m[Kusing _pose_type = struct geometry_msgs::msg::Pose_<std::allocator<void> >[m[K’ {aka ‘[01m[Kstruct geometry_msgs::msg::Pose_<std::allocator<void> >[m[K’} has no member named ‘[01m[Kpoint[m[K’
+[0.766s]    27 |     message.pose.[01;31m[Kpoint[m[K.y = py1;
+[0.766s]       |                  [01;31m[K^~~~~[m[K
+[0.766s] [01m[K/home/max/Documents/GitHub/IR2121/Navigation/nav/src/goal/publisher.cpp:28:18:[m[K [01;31m[Kerror: [m[K‘[01m[Kusing _pose_type = struct geometry_msgs::msg::Pose_<std::allocator<void> >[m[K’ {aka ‘[01m[Kstruct geometry_msgs::msg::Pose_<std::allocator<void> >[m[K’} has no member named ‘[01m[Kpoint[m[K’
+[0.766s]    28 |     message.pose.[01;31m[Kpoint[m[K.z = pz1;
+[0.766s]       |                  [01;31m[K^~~~~[m[K
+[1.579s] make[2]: *** [CMakeFiles/publisher.dir/build.make:63: CMakeFiles/publisher.dir/publisher.cpp.o] Error 1
+[1.579s] make[1]: *** [CMakeFiles/Makefile2:78: CMakeFiles/publisher.dir/all] Error 2
+[1.579s] make: *** [Makefile:141: all] Error 2
+[1.582s] Invoked command in '/home/max/Documents/GitHub/IR2121/Navigation/nav/build/goal' returned '2': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/max/ws/install/opencv_tests:/opt/ros/foxy /usr/bin/cmake --build /home/max/Documents/GitHub/IR2121/Navigation/nav/build/goal -- -j20 -l20

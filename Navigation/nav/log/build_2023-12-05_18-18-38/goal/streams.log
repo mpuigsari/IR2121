@@ -1,0 +1,12 @@
+[0.097s] Invoking command in '/home/max/Documents/GitHub/IR2121/Navigation/nav/build/goal': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/max/ws/install/opencv_tests:/opt/ros/foxy /usr/bin/cmake --build /home/max/Documents/GitHub/IR2121/Navigation/nav/build/goal -- -j20 -l20
+[0.121s] [35m[1mScanning dependencies of target publisher[0m
+[0.135s] [ 50%] [32mBuilding CXX object CMakeFiles/publisher.dir/publisher.cpp.o[0m
+[0.752s] [01m[K/home/max/Documents/GitHub/IR2121/Navigation/nav/src/goal/publisher.cpp:[m[K In function ‘[01m[Kvoid topic_callback(nav_msgs::msg::Odometry_<std::allocator<void> >::SharedPtr)[m[K’:
+[0.752s] [01m[K/home/max/Documents/GitHub/IR2121/Navigation/nav/src/goal/publisher.cpp:16:2:[m[K [01;31m[Kerror: [m[K‘[01m[Kpzs[m[K’ was not declared in this scope; did you mean ‘[01m[Kpys[m[K’?
+[0.752s]    16 |  [01;31m[Kpzs[m[K = msg->pose.pose.position.z;
+[0.752s]       |  [01;31m[K^~~[m[K
+[0.752s]       |  [32m[Kpys[m[K
+[1.538s] make[2]: *** [CMakeFiles/publisher.dir/build.make:63: CMakeFiles/publisher.dir/publisher.cpp.o] Error 1
+[1.539s] make[1]: *** [CMakeFiles/Makefile2:78: CMakeFiles/publisher.dir/all] Error 2
+[1.539s] make: *** [Makefile:141: all] Error 2
+[1.540s] Invoked command in '/home/max/Documents/GitHub/IR2121/Navigation/nav/build/goal' returned '2': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/max/ws/install/opencv_tests:/opt/ros/foxy /usr/bin/cmake --build /home/max/Documents/GitHub/IR2121/Navigation/nav/build/goal -- -j20 -l20
