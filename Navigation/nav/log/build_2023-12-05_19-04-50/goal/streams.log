@@ -1,0 +1,30 @@
+[0.097s] Invoking command in '/home/max/Documents/GitHub/IR2121/Navigation/nav/build/goal': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/max/ws/install/opencv_tests:/opt/ros/foxy /usr/bin/cmake --build /home/max/Documents/GitHub/IR2121/Navigation/nav/build/goal -- -j20 -l20
+[0.122s] [35m[1mScanning dependencies of target publisher[0m
+[0.136s] [ 50%] [32mBuilding CXX object CMakeFiles/publisher.dir/publisher.cpp.o[0m
+[0.763s] [01m[K/home/max/Documents/GitHub/IR2121/Navigation/nav/src/goal/publisher.cpp:[m[K In function ‘[01m[Kint main(int, char**)[m[K’:
+[0.763s] [01m[K/home/max/Documents/GitHub/IR2121/Navigation/nav/src/goal/publisher.cpp:31:26:[m[K [01;35m[Kwarning: [m[Ksuggest parentheses around comparison in operand of ‘[01m[K&[m[K’ [[01;35m[K-Wparentheses[m[K]
+[0.763s]    31 |   while (rclcpp::ok() & [01;35m[Ki<4[m[K) {
+[0.763s]       |                         [01;35m[K~^~[m[K
+[2.757s] [100%] [32m[1mLinking CXX executable publisher[0m
+[2.884s] [100%] Built target publisher
+[2.890s] Invoked command in '/home/max/Documents/GitHub/IR2121/Navigation/nav/build/goal' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/max/ws/install/opencv_tests:/opt/ros/foxy /usr/bin/cmake --build /home/max/Documents/GitHub/IR2121/Navigation/nav/build/goal -- -j20 -l20
+[2.912s] Invoking command in '/home/max/Documents/GitHub/IR2121/Navigation/nav/build/goal': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/max/ws/install/opencv_tests:/opt/ros/foxy /usr/bin/cmake --install /home/max/Documents/GitHub/IR2121/Navigation/nav/build/goal
+[2.917s] -- Install configuration: ""
+[2.917s] -- Installing: /home/max/Documents/GitHub/IR2121/Navigation/nav/install/goal/lib/goal/publisher
+[2.918s] -- Set runtime path of "/home/max/Documents/GitHub/IR2121/Navigation/nav/install/goal/lib/goal/publisher" to ""
+[2.918s] -- Up-to-date: /home/max/Documents/GitHub/IR2121/Navigation/nav/install/goal/share/ament_index/resource_index/package_run_dependencies/goal
+[2.918s] -- Up-to-date: /home/max/Documents/GitHub/IR2121/Navigation/nav/install/goal/share/ament_index/resource_index/parent_prefix_path/goal
+[2.918s] -- Up-to-date: /home/max/Documents/GitHub/IR2121/Navigation/nav/install/goal/share/goal/environment/ament_prefix_path.sh
+[2.918s] -- Up-to-date: /home/max/Documents/GitHub/IR2121/Navigation/nav/install/goal/share/goal/environment/ament_prefix_path.dsv
+[2.918s] -- Up-to-date: /home/max/Documents/GitHub/IR2121/Navigation/nav/install/goal/share/goal/environment/path.sh
+[2.918s] -- Up-to-date: /home/max/Documents/GitHub/IR2121/Navigation/nav/install/goal/share/goal/environment/path.dsv
+[2.918s] -- Up-to-date: /home/max/Documents/GitHub/IR2121/Navigation/nav/install/goal/share/goal/local_setup.bash
+[2.918s] -- Up-to-date: /home/max/Documents/GitHub/IR2121/Navigation/nav/install/goal/share/goal/local_setup.sh
+[2.918s] -- Up-to-date: /home/max/Documents/GitHub/IR2121/Navigation/nav/install/goal/share/goal/local_setup.zsh
+[2.918s] -- Up-to-date: /home/max/Documents/GitHub/IR2121/Navigation/nav/install/goal/share/goal/local_setup.dsv
+[2.918s] -- Installing: /home/max/Documents/GitHub/IR2121/Navigation/nav/install/goal/share/goal/package.dsv
+[2.919s] -- Up-to-date: /home/max/Documents/GitHub/IR2121/Navigation/nav/install/goal/share/ament_index/resource_index/packages/goal
+[2.919s] -- Up-to-date: /home/max/Documents/GitHub/IR2121/Navigation/nav/install/goal/share/goal/cmake/goalConfig.cmake
+[2.919s] -- Up-to-date: /home/max/Documents/GitHub/IR2121/Navigation/nav/install/goal/share/goal/cmake/goalConfig-version.cmake
+[2.919s] -- Up-to-date: /home/max/Documents/GitHub/IR2121/Navigation/nav/install/goal/share/goal/package.xml
+[2.919s] Invoked command in '/home/max/Documents/GitHub/IR2121/Navigation/nav/build/goal' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/max/ws/install/opencv_tests:/opt/ros/foxy /usr/bin/cmake --install /home/max/Documents/GitHub/IR2121/Navigation/nav/build/goal

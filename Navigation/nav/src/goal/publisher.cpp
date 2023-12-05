@@ -24,19 +24,23 @@ int main(int argc, char * argv[])
   auto subscription = node->create_subscription<nav_msgs::msg::Odometry>("odom", 10, topic_callback);
   geometry_msgs::msg::PoseStamped message;
   rclcpp::WallRate loop_rate(500ms);
-  double px1=-1, py1=3;
-  int stop=0;
-  message.pose.position.x = px1;
-  message.pose.position.y = py1;
+  double px[3]={-1,8.5,7.5}, py[3]={3,5,-2},pxi,pyi;
+  int i=0;
+  
 
-  while (rclcpp::ok() & (stop==0)) {
+  while (rclcpp::ok() & (i<3)) {
+    message.pose.position.x = px[i];
+    message.pose.position.y = py[i];
     publisher->publish(message);
-    px1=std::abs(px1);
-    py1=std::abs(py1);
+    pxi=std::abs(px[i]);
+    pyi=std::abs(py[i]);
     pxs=std::abs(pxs);
     pys=std::abs(pys);
-    if((std::abs(px1-pxs)<0.2)&(std::abs(py1-pys)<0.2)) 
-      stop=1;
+    
+    if((std::abs(pxi-pxs)<0.25)&(std::abs(pyi-pys)<0.25)) 
+      i=i+1;
+    
+    
     
     rclcpp::spin_some(node);
     loop_rate.sleep();

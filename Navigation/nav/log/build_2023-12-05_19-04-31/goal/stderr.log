@@ -1,0 +1,15 @@
+[01m[K/home/max/Documents/GitHub/IR2121/Navigation/nav/src/goal/publisher.cpp:[m[K In function ‘[01m[Kint main(int, char**)[m[K’:
+[01m[K/home/max/Documents/GitHub/IR2121/Navigation/nav/src/goal/publisher.cpp:31:26:[m[K [01;35m[Kwarning: [m[Ksuggest parentheses around comparison in operand of ‘[01m[K&[m[K’ [[01;35m[K-Wparentheses[m[K]
+   31 |   while (rclcpp::ok() & [01;35m[Ki<4[m[K) {
+      |                         [01;35m[K~^~[m[K
+[01m[K/home/max/Documents/GitHub/IR2121/Navigation/nav/src/goal/publisher.cpp:35:5:[m[K [01;31m[Kerror: [m[K‘[01m[Kpxi[m[K’ was not declared in this scope; did you mean ‘[01m[Kpx[m[K’?
+   35 |     [01;31m[Kpxi[m[K=std::abs(px[i]);
+      |     [01;31m[K^~~[m[K
+      |     [32m[Kpx[m[K
+[01m[K/home/max/Documents/GitHub/IR2121/Navigation/nav/src/goal/publisher.cpp:36:5:[m[K [01;31m[Kerror: [m[K‘[01m[Kpyi[m[K’ was not declared in this scope; did you mean ‘[01m[Kpy[m[K’?
+   36 |     [01;31m[Kpyi[m[K=std::abs(py[i]);
+      |     [01;31m[K^~~[m[K
+      |     [32m[Kpy[m[K
+make[2]: *** [CMakeFiles/publisher.dir/build.make:63: CMakeFiles/publisher.dir/publisher.cpp.o] Error 1
+make[1]: *** [CMakeFiles/Makefile2:78: CMakeFiles/publisher.dir/all] Error 2
+make: *** [Makefile:141: all] Error 2
