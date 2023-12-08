@@ -13,10 +13,11 @@ endif()
 find_package(ament_cmake REQUIRED)
 find_package(rclcpp REQUIRED)
 find_package(geometry_msgs REQUIRED)
+find_package(tf2_ros REQUIRED)
 
 
 add_executable(publisher publisher.cpp)
-ament_target_dependencies(publisher rclcpp geometry_msgs)
+ament_target_dependencies(publisher rclcpp geometry_msgs tf2_ros)
 
 
 install(TARGETS

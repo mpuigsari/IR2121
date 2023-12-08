@@ -1,7 +1,8 @@
 #include <chrono>
 #include "rclcpp/rclcpp.hpp"
 #include "geometry_msgs/msg/pose_stamped.hpp"
-#include "geometry_msgs/msg/pose_with_covariance_stamped.hpp"
+#include "tf2_ros/transform_listener.h"
+#include "tf2_ros/buffer.h"
 
 
 #include <iostream>
@@ -10,19 +11,14 @@
 using namespace std::chrono_literals;
 
 double pxs,pys;
-void topic_callback(const geometry_msgs::msg::PoseWithCovarianceStamped::SharedPtr msg)
-{
- pxs = msg->pose.pose.position.x;
- pys = msg->pose.pose.position.y;
 
-}
 
 int main(int argc, char * argv[])
 {
   rclcpp::init(argc, argv);
   auto node = rclcpp::Node::make_shared("publisher");
   auto publisher = node->create_publisher<geometry_msgs::msg::PoseStamped>("goal_pose", 10);
-  auto subscription = node->create_subscription<geometry_msgs::msg::PoseWithCovarianceStamped>("amcl_pose", 10, topic_callback);
+  
   geometry_msgs::msg::PoseStamped message;
   rclcpp::WallRate loop_rate(500ms);
   double px[3]={-1,8.5,7.5}, py[3]={3,5,-2},pxi,pyi;
