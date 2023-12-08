@@ -1,0 +1,33 @@
+[0.091s] Invoking command in '/home/max/Documents/GitHub/IR2121/Navigation/nav/build/goal': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/max/ws/install/opencv_tests:/opt/ros/foxy /usr/bin/cmake --build /home/max/Documents/GitHub/IR2121/Navigation/nav/build/goal -- -j20 -l20
+[0.114s] [35m[1mScanning dependencies of target publisher[0m
+[0.128s] [ 50%] [32mBuilding CXX object CMakeFiles/publisher.dir/publisher.cpp.o[0m
+[0.781s] [01m[K/home/max/Documents/GitHub/IR2121/Navigation/nav/src/goal/publisher.cpp:[m[K In function ‘[01m[Kint main(int, char**)[m[K’:
+[0.781s] [01m[K/home/max/Documents/GitHub/IR2121/Navigation/nav/src/goal/publisher.cpp:20:77:[m[K [01;31m[Kerror: [m[Kexpected ‘[01m[K)[m[K’ before ‘[01m[K;[m[K’ token
+[0.781s]    20 |   tf2_ros::Buffer tf2_buffer[34m[K([m[Krclcpp::Clock::SharedPtr clock,rclcpp::Duration[01;31m[K;[m[K
+[0.781s]       |                             [34m[K~[m[K                                               [01;31m[K^[m[K
+[0.781s]       |                                                                             [32m[K)[m[K
+[0.781s] [01m[K/home/max/Documents/GitHub/IR2121/Navigation/nav/src/goal/publisher.cpp:21:49:[m[K [01;31m[Kerror: [m[Kno matching function for call to ‘[01m[Ktf2_ros::TransformListener::TransformListener(tf2_ros::Buffer (&)(rclcpp::Clock::SharedPtr, rclcpp::Duration))[m[K’
+[0.781s]    21 |   tf2_ros::TransformListener listener(tf2_buffer[01;31m[K)[m[K;
+[0.781s]       |                                                 [01;31m[K^[m[K
+[0.781s] In file included from [01m[K/home/max/Documents/GitHub/IR2121/Navigation/nav/src/goal/publisher.cpp:5[m[K:
+[0.781s] [01m[K/opt/ros/foxy/include/tf2_ros/transform_listener.h:58:3:[m[K [01;36m[Knote: [m[Kcandidate: ‘[01m[Ktemplate<class NodeT, class AllocatorT> tf2_ros::TransformListener::TransformListener(tf2::BufferCore&, NodeT&&, bool, const rclcpp::QoS&, const rclcpp::QoS&, const rclcpp::SubscriptionOptionsWithAllocator<AllocatorT>&)[m[K’
+[0.781s]    58 |   [01;36m[KTransformListener[m[K(
+[0.781s]       |   [01;36m[K^~~~~~~~~~~~~~~~~[m[K
+[0.781s] [01m[K/opt/ros/foxy/include/tf2_ros/transform_listener.h:58:3:[m[K [01;36m[Knote: [m[K  template argument deduction/substitution failed:
+[0.781s] [01m[K/home/max/Documents/GitHub/IR2121/Navigation/nav/src/goal/publisher.cpp:21:49:[m[K [01;36m[Knote: [m[K  candidate expects 6 arguments, 1 provided
+[0.781s]    21 |   tf2_ros::TransformListener listener(tf2_buffer[01;36m[K)[m[K;
+[0.781s]       |                                                 [01;36m[K^[m[K
+[0.781s] In file included from [01m[K/home/max/Documents/GitHub/IR2121/Navigation/nav/src/goal/publisher.cpp:5[m[K:
+[0.782s] [01m[K/opt/ros/foxy/include/tf2_ros/transform_listener.h:55:12:[m[K [01;36m[Knote: [m[Kcandidate: ‘[01m[Ktf2_ros::TransformListener::TransformListener(tf2::BufferCore&, bool)[m[K’
+[0.782s]    55 |   explicit [01;36m[KTransformListener[m[K(tf2::BufferCore & buffer, bool spin_thread = true);
+[0.782s]       |            [01;36m[K^~~~~~~~~~~~~~~~~[m[K
+[0.782s] [01m[K/opt/ros/foxy/include/tf2_ros/transform_listener.h:55:48:[m[K [01;36m[Knote: [m[K  no known conversion for argument 1 from ‘[01m[Ktf2_ros::Buffer(rclcpp::Clock::SharedPtr, rclcpp::Duration)[m[K’ {aka ‘[01m[Ktf2_ros::Buffer(std::shared_ptr<rclcpp::Clock>, rclcpp::Duration)[m[K’} to ‘[01m[Ktf2::BufferCore&[m[K’
+[0.782s]    55 |   explicit TransformListener([01;36m[Ktf2::BufferCore & buffer[m[K, bool spin_thread = true);
+[0.782s]       |                              [01;36m[K~~~~~~~~~~~~~~~~~~^~~~~~[m[K
+[0.787s] [01m[K/home/max/Documents/GitHub/IR2121/Navigation/nav/src/goal/publisher.cpp:35:31:[m[K [01;31m[Kerror: [m[Krequest for member ‘[01m[KlookupTransform[m[K’ in ‘[01m[Ktf2_buffer[m[K’, which is of non-class type ‘[01m[Ktf2_ros::Buffer(rclcpp::Clock::SharedPtr, rclcpp::Duration)[m[K’ {aka ‘[01m[Ktf2_ros::Buffer(std::shared_ptr<rclcpp::Clock>, rclcpp::Duration)[m[K’}
+[0.787s]    35 |     map_baselink = tf2_buffer.[01;31m[KlookupTransform[m[K("base_link", "map", rclcpp::Time(0), rclcpp::Duration(1.0));
+[0.787s]       |                               [01;31m[K^~~~~~~~~~~~~~~[m[K
+[1.201s] make[2]: *** [CMakeFiles/publisher.dir/build.make:63: CMakeFiles/publisher.dir/publisher.cpp.o] Error 1
+[1.201s] make[1]: *** [CMakeFiles/Makefile2:78: CMakeFiles/publisher.dir/all] Error 2
+[1.201s] make: *** [Makefile:141: all] Error 2
+[1.203s] Invoked command in '/home/max/Documents/GitHub/IR2121/Navigation/nav/build/goal' returned '2': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/max/ws/install/opencv_tests:/opt/ros/foxy /usr/bin/cmake --build /home/max/Documents/GitHub/IR2121/Navigation/nav/build/goal -- -j20 -l20

@@ -17,8 +17,6 @@ geometry_msgs/msg/transform_stamped.hpp
 /home/max/Documents/GitHub/IR2121/Navigation/nav/src/goal/geometry_msgs/msg/transform_stamped.hpp
 tf2_ros/transform_listener.h
 /home/max/Documents/GitHub/IR2121/Navigation/nav/src/goal/tf2_ros/transform_listener.h
-tf2_ros/buffer.h
-/home/max/Documents/GitHub/IR2121/Navigation/nav/src/goal/tf2_ros/buffer.h
 tf2_geometry_msgs/tf2_geometry_msgs.h
 /home/max/Documents/GitHub/IR2121/Navigation/nav/src/goal/tf2_geometry_msgs/tf2_geometry_msgs.h
 iostream

@@ -3,7 +3,6 @@
 #include "geometry_msgs/msg/pose_stamped.hpp"
 #include "geometry_msgs/msg/transform_stamped.hpp"
 #include "tf2_ros/transform_listener.h"
-#include "tf2_ros/buffer.h"
 #include "tf2_geometry_msgs/tf2_geometry_msgs.h"
 #include <iostream>
 #include <cstdlib>
@@ -11,15 +10,16 @@
 using namespace std::chrono_literals;
 
 
-tf2_ros::Buffer tf2_buffer;
 
 int main(int argc, char * argv[])
 {
   rclcpp::init(argc, argv);
   auto node = rclcpp::Node::make_shared("publisher");
   auto publisher = node->create_publisher<geometry_msgs::msg::PoseStamped>("goal_pose", 10);
+ 
+  std::unique_ptr<tf2_ros::Buffer> buffer = std::make_unique<tf2_ros::Buffer>(node->get_clock());
+  std::shared_ptr<tf2_ros::TransformListener> transform_listener_ = std::make_shared<tf2_ros::TransformListener>(*buffer);
   
-  tf2_ros::TransformListener listener(tf2_buffer);
   geometry_msgs::msg::TransformStamped map_baselink;
   geometry_msgs::msg::PoseStamped message, current;
 
@@ -33,7 +33,7 @@ int main(int argc, char * argv[])
     message.pose.position.y = py[i];
     publisher->publish(message);
     
-    map_baselink = tf2_buffer.lookupTransform("base_link", "map", rclcpp::Time(0), rclcpp::Duration(1.0));
+    map_baselink = buffer->lookupTransform("base_link", "map", rclcpp::Time(0), rclcpp::Duration(1.0));
     tf2::doTransform(message, current, map_baselink);
     
     pxs=std::abs(current.pose.position.x);

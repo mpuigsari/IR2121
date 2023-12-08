@@ -1,0 +1,191 @@
+[0.000000] (-) TimerEvent: {}
+[0.000089] (goal) JobQueued: {'identifier': 'goal', 'dependencies': OrderedDict()}
+[0.000106] (goal) JobStarted: {'identifier': 'goal'}
+[0.088435] (goal) JobProgress: {'identifier': 'goal', 'progress': 'cmake'}
+[0.089361] (goal) JobProgress: {'identifier': 'goal', 'progress': 'build'}
+[0.089395] (goal) Command: {'cmd': ['/usr/bin/cmake', '--build', '/home/max/Documents/GitHub/IR2121/Navigation/nav/build/goal', '--', '-j20', '-l20'], 'cwd': '/home/max/Documents/GitHub/IR2121/Navigation/nav/build/goal', 'env': OrderedDict([('GJS_DEBUG_TOPICS', 'JS ERROR;JS LOG'), ('LESSOPEN', '| /usr/bin/lesspipe %s'), ('USER', 'max'), ('LC_TIME', 'es_ES.UTF-8'), ('SSH_AGENT_PID', '1997'), ('XDG_SESSION_TYPE', 'x11'), ('SHLVL', '1'), ('LD_LIBRARY_PATH', '/home/max/ws/install/image_geometry/lib:/home/max/ws/install/gazebo_plugins/lib:/home/max/ws/install/gazebo_ros/lib:/home/max/ws/install/gazebo_msgs/lib:/home/max/ws/install/cv_bridge/lib:/usr/lib/x86_64-linux-gnu/gazebo-11/plugins:/opt/ros/foxy/opt/yaml_cpp_vendor/lib:/opt/ros/foxy/opt/rviz_ogre_vendor/lib:/opt/ros/foxy/lib/x86_64-linux-gnu:/opt/ros/foxy/lib'), ('HOME', '/home/max'), ('OLDPWD', '/home/max'), ('DESKTOP_SESSION', 'ubuntu'), ('ROS_PYTHON_VERSION', '3'), ('GNOME_SHELL_SESSION_MODE', 'ubuntu'), ('GTK_MODULES', 'gail:atk-bridge'), ('LC_MONETARY', 'es_ES.UTF-8'), ('MANAGERPID', '1815'), ('DBUS_SESSION_BUS_ADDRESS', 'unix:path=/run/user/1000/bus'), ('COLORTERM', 'truecolor'), ('IM_CONFIG_PHASE', '1'), ('COLCON_PREFIX_PATH', '/home/max/Documents/GitHub/IR2121/Navigation/nav/install:/home/max/ws/install'), ('ROS_DISTRO', 'foxy'), ('LOGNAME', 'max'), ('JOURNAL_STREAM', '8:61512'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('XDG_SESSION_CLASS', 'user'), ('USERNAME', 'max'), ('TERM', 'xterm-256color'), ('GNOME_DESKTOP_SESSION_ID', 'this-is-deprecated'), ('ROS_LOCALHOST_ONLY', '0'), ('WINDOWPATH', '2'), ('PATH', '/opt/ros/foxy/bin:/home/max/.local/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin'), ('SESSION_MANAGER', 'local/raidermax:@/tmp/.ICE-unix/2032,unix/raidermax:/tmp/.ICE-unix/2032'), ('INVOCATION_ID', 'd5ae2ab4f1524fd6a6b00c0e31f01763'), ('XDG_MENU_PREFIX', 'gnome-'), ('LC_ADDRESS', 'es_ES.UTF-8'), ('GNOME_TERMINAL_SCREEN', '/org/gnome/Terminal/screen/8a7844da_cfdd_4a5f_91f3_c8f32a83016a'), ('XDG_RUNTIME_DIR', '/run/user/1000'), ('DISPLAY', ':1'), ('LANG', 'en_US.UTF-8'), ('XDG_CURRENT_DESKTOP', 'ubuntu:GNOME'), ('LC_TELEPHONE', 'es_ES.UTF-8'), ('XMODIFIERS', '@im=ibus'), ('XDG_SESSION_DESKTOP', 'ubuntu'), ('XAUTHORITY', '/run/user/1000/gdm/Xauthority'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('GNOME_TERMINAL_SERVICE', ':1.120'), ('SSH_AUTH_SOCK', '/run/user/1000/keyring/ssh'), ('AMENT_PREFIX_PATH', '/home/max/Documents/GitHub/IR2121/Navigation/nav/install/goal:/home/max/ws/install/vision_opencv:/home/max/ws/install/opencv_tests:/home/max/ws/install/image_geometry:/home/max/ws/install/gazebo_ros_pkgs:/home/max/ws/install/gazebo_plugins:/home/max/ws/install/gazebo_ros:/home/max/ws/install/gazebo_msgs:/home/max/ws/install/gazebo_dev:/home/max/ws/install/cv_bridge:/opt/ros/foxy'), ('SHELL', '/bin/bash'), ('LC_NAME', 'es_ES.UTF-8'), ('QT_ACCESSIBILITY', '1'), ('GDMSESSION', 'ubuntu'), ('LESSCLOSE', '/usr/bin/lesspipe %s %s'), ('LC_MEASUREMENT', 'es_ES.UTF-8'), ('GPG_AGENT_INFO', '/run/user/1000/gnupg/S.gpg-agent:0:1'), ('GJS_DEBUG_OUTPUT', 'stderr'), ('LC_IDENTIFICATION', 'es_ES.UTF-8'), ('QT_IM_MODULE', 'ibus'), ('PWD', '/home/max/Documents/GitHub/IR2121/Navigation/nav/build/goal'), ('XDG_CONFIG_DIRS', '/etc/xdg/xdg-ubuntu:/etc/xdg'), ('XDG_DATA_DIRS', '/usr/share/ubuntu:/usr/local/share/:/usr/share/:/var/lib/snapd/desktop'), ('PYTHONPATH', '/home/max/ws/build/opencv_tests:/home/max/ws/install/opencv_tests/lib/python3.8/site-packages:/home/max/ws/install/image_geometry/lib/python3.8/site-packages:/home/max/ws/install/gazebo_ros/lib/python3.8/site-packages:/home/max/ws/install/gazebo_msgs/lib/python3.8/site-packages:/home/max/ws/install/cv_bridge/lib/python3.8/site-packages:/opt/ros/foxy/lib/python3.8/site-packages'), ('LC_NUMERIC', 'es_ES.UTF-8'), ('LC_PAPER', 'es_ES.UTF-8'), ('COLCON', '1'), ('VTE_VERSION', '6003'), ('CMAKE_PREFIX_PATH', '/home/max/Documents/GitHub/IR2121/Navigation/nav/install/goal:/home/max/ws/install/vision_opencv:/home/max/ws/install/image_geometry:/home/max/ws/install/gazebo_ros_pkgs:/home/max/ws/install/gazebo_plugins:/home/max/ws/install/gazebo_ros:/home/max/ws/install/gazebo_msgs:/home/max/ws/install/gazebo_dev:/home/max/ws/install/cv_bridge:/home/max/ws/install/opencv_tests:/opt/ros/foxy')]), 'shell': False}
+[0.099635] (-) TimerEvent: {}
+[0.114163] (goal) StdoutLine: {'line': b'\x1b[35m\x1b[1mScanning dependencies of target publisher\x1b[0m\n'}
+[0.128544] (goal) StdoutLine: {'line': b'[ 50%] \x1b[32mBuilding CXX object CMakeFiles/publisher.dir/publisher.cpp.o\x1b[0m\n'}
+[0.199817] (-) TimerEvent: {}
+[0.300063] (-) TimerEvent: {}
+[0.400282] (-) TimerEvent: {}
+[0.500505] (-) TimerEvent: {}
+[0.600764] (-) TimerEvent: {}
+[0.701071] (-) TimerEvent: {}
+[0.783803] (goal) StderrLine: {'line': b'\x1b[01m\x1b[K/home/max/Documents/GitHub/IR2121/Navigation/nav/src/goal/publisher.cpp:\x1b[m\x1b[K In function \xe2\x80\x98\x1b[01m\x1b[Kint main(int, char**)\x1b[m\x1b[K\xe2\x80\x99:\n'}
+[0.783984] (goal) StderrLine: {'line': b'\x1b[01m\x1b[K/home/max/Documents/GitHub/IR2121/Navigation/nav/src/goal/publisher.cpp:21:66:\x1b[m\x1b[K \x1b[01;31m\x1b[Kerror: \x1b[m\x1b[Kno matching function for call to \xe2\x80\x98\x1b[01m\x1b[Kstd::shared_ptr<tf2_ros::TransformListener>::shared_ptr(std::unique_ptr<tf2_ros::Buffer>&)\x1b[m\x1b[K\xe2\x80\x99\n'}
+[0.784024] (goal) StderrLine: {'line': b'   21 |   std::shared_ptr<tf2_ros::TransformListener> listener(tf2_buffer\x1b[01;31m\x1b[K)\x1b[m\x1b[K;\n'}
+[0.784055] (goal) StderrLine: {'line': b'      |                                                                  \x1b[01;31m\x1b[K^\x1b[m\x1b[K\n'}
+[0.784084] (goal) StderrLine: {'line': b'In file included from \x1b[01m\x1b[K/usr/include/c++/9/memory:81\x1b[m\x1b[K,\n'}
+[0.784112] (goal) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/foxy/include/rclcpp/rclcpp.hpp:144\x1b[m\x1b[K,\n'}
+[0.784148] (goal) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/home/max/Documents/GitHub/IR2121/Navigation/nav/src/goal/publisher.cpp:2\x1b[m\x1b[K:\n'}
+[0.784176] (goal) StderrLine: {'line': b'\x1b[01m\x1b[K/usr/include/c++/9/bits/shared_ptr.h:367:7:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[Kcandidate: \xe2\x80\x98\x1b[01m\x1b[Kstd::shared_ptr<_Tp>::shared_ptr(const std::weak_ptr<_Tp>&, std::nothrow_t) [with _Tp = tf2_ros::TransformListener]\x1b[m\x1b[K\xe2\x80\x99\n'}
+[0.784205] (goal) StderrLine: {'line': b'  367 |       \x1b[01;36m\x1b[Kshared_ptr\x1b[m\x1b[K(const weak_ptr<_Tp>& __r, std::nothrow_t)\n'}
+[0.784230] (goal) StderrLine: {'line': b'      |       \x1b[01;36m\x1b[K^~~~~~~~~~\x1b[m\x1b[K\n'}
+[0.784256] (goal) StderrLine: {'line': b'\x1b[01m\x1b[K/usr/include/c++/9/bits/shared_ptr.h:367:7:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[K  candidate expects 2 arguments, 1 provided\n'}
+[0.784282] (goal) StderrLine: {'line': b'\x1b[01m\x1b[K/usr/include/c++/9/bits/shared_ptr.h:358:2:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[Kcandidate: \xe2\x80\x98\x1b[01m\x1b[Ktemplate<class _Alloc, class ... _Args> std::shared_ptr<_Tp>::shared_ptr(std::_Sp_alloc_shared_tag<_Tp>, _Args&& ...)\x1b[m\x1b[K\xe2\x80\x99\n'}
+[0.784307] (goal) StderrLine: {'line': b'  358 |  \x1b[01;36m\x1b[Kshared_ptr\x1b[m\x1b[K(_Sp_alloc_shared_tag<_Alloc> __tag, _Args&&... __args)\n'}
+[0.784331] (goal) StderrLine: {'line': b'      |  \x1b[01;36m\x1b[K^~~~~~~~~~\x1b[m\x1b[K\n'}
+[0.784356] (goal) StderrLine: {'line': b'\x1b[01m\x1b[K/usr/include/c++/9/bits/shared_ptr.h:358:2:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[K  template argument deduction/substitution failed:\n'}
+[0.784381] (goal) StderrLine: {'line': b'\x1b[01m\x1b[K/home/max/Documents/GitHub/IR2121/Navigation/nav/src/goal/publisher.cpp:21:66:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[K  \xe2\x80\x98\x1b[01m\x1b[Kstd::unique_ptr<tf2_ros::Buffer>\x1b[m\x1b[K\xe2\x80\x99 is not derived from \xe2\x80\x98\x1b[01m\x1b[Kstd::_Sp_alloc_shared_tag<_Tp>\x1b[m\x1b[K\xe2\x80\x99\n'}
+[0.784408] (goal) StderrLine: {'line': b'   21 |   std::shared_ptr<tf2_ros::TransformListener> listener(tf2_buffer\x1b[01;36m\x1b[K)\x1b[m\x1b[K;\n'}
+[0.784433] (goal) StderrLine: {'line': b'      |                                                                  \x1b[01;36m\x1b[K^\x1b[m\x1b[K\n'}
+[0.784461] (goal) StderrLine: {'line': b'In file included from \x1b[01m\x1b[K/usr/include/c++/9/memory:81\x1b[m\x1b[K,\n'}
+[0.784486] (goal) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/foxy/include/rclcpp/rclcpp.hpp:144\x1b[m\x1b[K,\n'}
+[0.784516] (goal) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/home/max/Documents/GitHub/IR2121/Navigation/nav/src/goal/publisher.cpp:2\x1b[m\x1b[K:\n'}
+[0.784540] (goal) StderrLine: {'line': b'\x1b[01m\x1b[K/usr/include/c++/9/bits/shared_ptr.h:307:17:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[Kcandidate: \xe2\x80\x98\x1b[01m\x1b[Kconstexpr std::shared_ptr<_Tp>::shared_ptr(std::nullptr_t) [with _Tp = tf2_ros::TransformListener; std::nullptr_t = std::nullptr_t]\x1b[m\x1b[K\xe2\x80\x99\n'}
+[0.784572] (goal) StderrLine: {'line': b'  307 |       constexpr \x1b[01;36m\x1b[Kshared_ptr\x1b[m\x1b[K(nullptr_t) noexcept : shared_ptr() { }\n'}
+[0.784599] (goal) StderrLine: {'line': b'      |                 \x1b[01;36m\x1b[K^~~~~~~~~~\x1b[m\x1b[K\n'}
+[0.784629] (goal) StderrLine: {'line': b'\x1b[01m\x1b[K/usr/include/c++/9/bits/shared_ptr.h:307:28:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[K  no known conversion for argument 1 from \xe2\x80\x98\x1b[01m\x1b[Kstd::unique_ptr<tf2_ros::Buffer>\x1b[m\x1b[K\xe2\x80\x99 to \xe2\x80\x98\x1b[01m\x1b[Kstd::nullptr_t\x1b[m\x1b[K\xe2\x80\x99\n'}
+[0.784655] (goal) StderrLine: {'line': b'  307 |       constexpr shared_ptr(\x1b[01;36m\x1b[Knullptr_t\x1b[m\x1b[K) noexcept : shared_ptr() { }\n'}
+[0.784679] (goal) StderrLine: {'line': b'      |                            \x1b[01;36m\x1b[K^~~~~~~~~\x1b[m\x1b[K\n'}
+[0.784704] (goal) StderrLine: {'line': b'\x1b[01m\x1b[K/usr/include/c++/9/bits/shared_ptr.h:299:2:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[Kcandidate: \xe2\x80\x98\x1b[01m\x1b[Ktemplate<class _Yp, class _Del, std::shared_ptr<tf2_ros::TransformListener>::_Constructible<std::unique_ptr<_Tp, _Dp>, std::__sp_array_delete>* <anonymous> > std::shared_ptr<_Tp>::shared_ptr(std::unique_ptr<_Up, _Ep>&&)\x1b[m\x1b[K\xe2\x80\x99\n'}
+[0.784734] (goal) StderrLine: {'line': b'  299 |  \x1b[01;36m\x1b[Kshared_ptr\x1b[m\x1b[K(unique_ptr<_Yp, _Del>&& __r)\n'}
+[0.784760] (goal) StderrLine: {'line': b'      |  \x1b[01;36m\x1b[K^~~~~~~~~~\x1b[m\x1b[K\n'}
+[0.784785] (goal) StderrLine: {'line': b'\x1b[01m\x1b[K/usr/include/c++/9/bits/shared_ptr.h:299:2:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[K  template argument deduction/substitution failed:\n'}
+[0.784809] (goal) StderrLine: {'line': b'/usr/include/c++/9/bits/shared_ptr.h: In substitution of \xe2\x80\x98\x1b[01m\x1b[Ktemplate<class _Tp> template<class ... _Args> using _Constructible = typename std::enable_if<std::is_constructible<std::__shared_ptr<_Tp>, _Args ...>::value>::type [with _Args = {std::unique_ptr<tf2_ros::Buffer, std::default_delete<tf2_ros::Buffer> >, std::__sp_array_delete}; _Tp = tf2_ros::TransformListener]\x1b[m\x1b[K\xe2\x80\x99:\n'}
+[0.784837] (goal) StderrLine: {'line': b'\x1b[01m\x1b[K/usr/include/c++/9/bits/shared_ptr.h:298:63:\x1b[m\x1b[K   required from here\n'}
+[0.784861] (goal) StderrLine: {'line': b'\x1b[01m\x1b[K/usr/include/c++/9/bits/shared_ptr.h:106:8:\x1b[m\x1b[K \x1b[01;31m\x1b[Kerror: \x1b[m\x1b[Kno type named \xe2\x80\x98\x1b[01m\x1b[Ktype\x1b[m\x1b[K\xe2\x80\x99 in \xe2\x80\x98\x1b[01m\x1b[Kstruct std::enable_if<false, void>\x1b[m\x1b[K\xe2\x80\x99\n'}
+[0.784885] (goal) StderrLine: {'line': b'  106 |  using \x1b[01;31m\x1b[K_Constructible\x1b[m\x1b[K = typename enable_if<\n'}
+[0.784908] (goal) StderrLine: {'line': b'      |        \x1b[01;31m\x1b[K^~~~~~~~~~~~~~\x1b[m\x1b[K\n'}
+[0.784932] (goal) StderrLine: {'line': b'\x1b[01m\x1b[K/usr/include/c++/9/bits/shared_ptr.h:290:2:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[Kcandidate: \xe2\x80\x98\x1b[01m\x1b[Ktemplate<class _Yp, class _Del, class> std::shared_ptr<_Tp>::shared_ptr(std::unique_ptr<_Up, _Ep>&&)\x1b[m\x1b[K\xe2\x80\x99\n'}
+[0.784956] (goal) StderrLine: {'line': b'  290 |  \x1b[01;36m\x1b[Kshared_ptr\x1b[m\x1b[K(unique_ptr<_Yp, _Del>&& __r)\n'}
+[0.784979] (goal) StderrLine: {'line': b'      |  \x1b[01;36m\x1b[K^~~~~~~~~~\x1b[m\x1b[K\n'}
+[0.785002] (goal) StderrLine: {'line': b'\x1b[01m\x1b[K/usr/include/c++/9/bits/shared_ptr.h:290:2:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[K  template argument deduction/substitution failed:\n'}
+[0.785025] (goal) StderrLine: {'line': b'/usr/include/c++/9/bits/shared_ptr.h: In substitution of \xe2\x80\x98\x1b[01m\x1b[Ktemplate<class _Tp> template<class ... _Args> using _Constructible = typename std::enable_if<std::is_constructible<std::__shared_ptr<_Tp>, _Args ...>::value>::type [with _Args = {std::unique_ptr<tf2_ros::Buffer, std::default_delete<tf2_ros::Buffer> >}; _Tp = tf2_ros::TransformListener]\x1b[m\x1b[K\xe2\x80\x99:\n'}
+[0.785049] (goal) StderrLine: {'line': b'\x1b[01m\x1b[K/usr/include/c++/9/bits/shared_ptr.h:289:9:\x1b[m\x1b[K   required from here\n'}
+[0.785073] (goal) StderrLine: {'line': b'\x1b[01m\x1b[K/usr/include/c++/9/bits/shared_ptr.h:106:8:\x1b[m\x1b[K \x1b[01;31m\x1b[Kerror: \x1b[m\x1b[Kno type named \xe2\x80\x98\x1b[01m\x1b[Ktype\x1b[m\x1b[K\xe2\x80\x99 in \xe2\x80\x98\x1b[01m\x1b[Kstruct std::enable_if<false, void>\x1b[m\x1b[K\xe2\x80\x99\n'}
+[0.785096] (goal) StderrLine: {'line': b'  106 |  using \x1b[01;31m\x1b[K_Constructible\x1b[m\x1b[K = typename enable_if<\n'}
+[0.785118] (goal) StderrLine: {'line': b'      |        \x1b[01;31m\x1b[K^~~~~~~~~~~~~~\x1b[m\x1b[K\n'}
+[0.785140] (goal) StderrLine: {'line': b'\x1b[01m\x1b[K/usr/include/c++/9/bits/shared_ptr.h:282:2:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[Kcandidate: \xe2\x80\x98\x1b[01m\x1b[Ktemplate<class _Yp, class> std::shared_ptr<_Tp>::shared_ptr(std::auto_ptr<_Up>&&)\x1b[m\x1b[K\xe2\x80\x99\n'}
+[0.785163] (goal) StderrLine: {'line': b'  282 |  \x1b[01;36m\x1b[Kshared_ptr\x1b[m\x1b[K(auto_ptr<_Yp>&& __r);\n'}
+[0.785186] (goal) StderrLine: {'line': b'      |  \x1b[01;36m\x1b[K^~~~~~~~~~\x1b[m\x1b[K\n'}
+[0.785209] (goal) StderrLine: {'line': b'\x1b[01m\x1b[K/usr/include/c++/9/bits/shared_ptr.h:282:2:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[K  template argument deduction/substitution failed:\n'}
+[0.785232] (goal) StderrLine: {'line': b'\x1b[01m\x1b[K/home/max/Documents/GitHub/IR2121/Navigation/nav/src/goal/publisher.cpp:21:66:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[K  \xe2\x80\x98\x1b[01m\x1b[Kstd::unique_ptr<tf2_ros::Buffer>\x1b[m\x1b[K\xe2\x80\x99 is not derived from \xe2\x80\x98\x1b[01m\x1b[Kstd::auto_ptr<_Up>\x1b[m\x1b[K\xe2\x80\x99\n'}
+[0.785258] (goal) StderrLine: {'line': b'   21 |   std::shared_ptr<tf2_ros::TransformListener> listener(tf2_buffer\x1b[01;36m\x1b[K)\x1b[m\x1b[K;\n'}
+[0.785281] (goal) StderrLine: {'line': b'      |                                                                  \x1b[01;36m\x1b[K^\x1b[m\x1b[K\n'}
+[0.785304] (goal) StderrLine: {'line': b'In file included from \x1b[01m\x1b[K/usr/include/c++/9/memory:81\x1b[m\x1b[K,\n'}
+[0.785327] (goal) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/foxy/include/rclcpp/rclcpp.hpp:144\x1b[m\x1b[K,\n'}
+[0.785350] (goal) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/home/max/Documents/GitHub/IR2121/Navigation/nav/src/goal/publisher.cpp:2\x1b[m\x1b[K:\n'}
+[0.785375] (goal) StderrLine: {'line': b'\x1b[01m\x1b[K/usr/include/c++/9/bits/shared_ptr.h:275:11:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[Kcandidate: \xe2\x80\x98\x1b[01m\x1b[Ktemplate<class _Yp, class> std::shared_ptr<_Tp>::shared_ptr(const std::weak_ptr<_Yp>&)\x1b[m\x1b[K\xe2\x80\x99\n'}
+[0.785399] (goal) StderrLine: {'line': b'  275 |  explicit \x1b[01;36m\x1b[Kshared_ptr\x1b[m\x1b[K(const weak_ptr<_Yp>& __r)\n'}
+[0.785423] (goal) StderrLine: {'line': b'      |           \x1b[01;36m\x1b[K^~~~~~~~~~\x1b[m\x1b[K\n'}
+[0.785447] (goal) StderrLine: {'line': b'\x1b[01m\x1b[K/usr/include/c++/9/bits/shared_ptr.h:275:11:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[K  template argument deduction/substitution failed:\n'}
+[0.785474] (goal) StderrLine: {'line': b'\x1b[01m\x1b[K/home/max/Documents/GitHub/IR2121/Navigation/nav/src/goal/publisher.cpp:21:66:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[K  \xe2\x80\x98\x1b[01m\x1b[Kstd::unique_ptr<tf2_ros::Buffer>\x1b[m\x1b[K\xe2\x80\x99 is not derived from \xe2\x80\x98\x1b[01m\x1b[Kconst std::weak_ptr<_Tp>\x1b[m\x1b[K\xe2\x80\x99\n'}
+[0.785507] (goal) StderrLine: {'line': b'   21 |   std::shared_ptr<tf2_ros::TransformListener> listener(tf2_buffer\x1b[01;36m\x1b[K)\x1b[m\x1b[K;\n'}
+[0.785540] (goal) StderrLine: {'line': b'      |                                                                  \x1b[01;36m\x1b[K^\x1b[m\x1b[K\n'}
+[0.785564] (goal) StderrLine: {'line': b'In file included from \x1b[01m\x1b[K/usr/include/c++/9/memory:81\x1b[m\x1b[K,\n'}
+[0.785587] (goal) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/foxy/include/rclcpp/rclcpp.hpp:144\x1b[m\x1b[K,\n'}
+[0.785610] (goal) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/home/max/Documents/GitHub/IR2121/Navigation/nav/src/goal/publisher.cpp:2\x1b[m\x1b[K:\n'}
+[0.785633] (goal) StderrLine: {'line': b'\x1b[01m\x1b[K/usr/include/c++/9/bits/shared_ptr.h:263:2:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[Kcandidate: \xe2\x80\x98\x1b[01m\x1b[Ktemplate<class _Yp, class> std::shared_ptr<_Tp>::shared_ptr(std::shared_ptr<_Yp>&&)\x1b[m\x1b[K\xe2\x80\x99\n'}
+[0.785660] (goal) StderrLine: {'line': b'  263 |  \x1b[01;36m\x1b[Kshared_ptr\x1b[m\x1b[K(shared_ptr<_Yp>&& __r) noexcept\n'}
+[0.785682] (goal) StderrLine: {'line': b'      |  \x1b[01;36m\x1b[K^~~~~~~~~~\x1b[m\x1b[K\n'}
+[0.785706] (goal) StderrLine: {'line': b'\x1b[01m\x1b[K/usr/include/c++/9/bits/shared_ptr.h:263:2:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[K  template argument deduction/substitution failed:\n'}
+[0.785729] (goal) StderrLine: {'line': b'\x1b[01m\x1b[K/home/max/Documents/GitHub/IR2121/Navigation/nav/src/goal/publisher.cpp:21:66:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[K  \xe2\x80\x98\x1b[01m\x1b[Kstd::unique_ptr<tf2_ros::Buffer>\x1b[m\x1b[K\xe2\x80\x99 is not derived from \xe2\x80\x98\x1b[01m\x1b[Kstd::shared_ptr<_Tp>\x1b[m\x1b[K\xe2\x80\x99\n'}
+[0.785753] (goal) StderrLine: {'line': b'   21 |   std::shared_ptr<tf2_ros::TransformListener> listener(tf2_buffer\x1b[01;36m\x1b[K)\x1b[m\x1b[K;\n'}
+[0.785776] (goal) StderrLine: {'line': b'      |                                                                  \x1b[01;36m\x1b[K^\x1b[m\x1b[K\n'}
+[0.785799] (goal) StderrLine: {'line': b'In file included from \x1b[01m\x1b[K/usr/include/c++/9/memory:81\x1b[m\x1b[K,\n'}
+[0.785821] (goal) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/foxy/include/rclcpp/rclcpp.hpp:144\x1b[m\x1b[K,\n'}
+[0.785844] (goal) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/home/max/Documents/GitHub/IR2121/Navigation/nav/src/goal/publisher.cpp:2\x1b[m\x1b[K:\n'}
+[0.785867] (goal) StderrLine: {'line': b'\x1b[01m\x1b[K/usr/include/c++/9/bits/shared_ptr.h:254:7:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[Kcandidate: \xe2\x80\x98\x1b[01m\x1b[Kstd::shared_ptr<_Tp>::shared_ptr(std::shared_ptr<_Tp>&&) [with _Tp = tf2_ros::TransformListener]\x1b[m\x1b[K\xe2\x80\x99\n'}
+[0.785890] (goal) StderrLine: {'line': b'  254 |       \x1b[01;36m\x1b[Kshared_ptr\x1b[m\x1b[K(shared_ptr&& __r) noexcept\n'}
+[0.785912] (goal) StderrLine: {'line': b'      |       \x1b[01;36m\x1b[K^~~~~~~~~~\x1b[m\x1b[K\n'}
+[0.785934] (goal) StderrLine: {'line': b'\x1b[01m\x1b[K/usr/include/c++/9/bits/shared_ptr.h:254:31:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[K  no known conversion for argument 1 from \xe2\x80\x98\x1b[01m\x1b[Kstd::unique_ptr<tf2_ros::Buffer>\x1b[m\x1b[K\xe2\x80\x99 to \xe2\x80\x98\x1b[01m\x1b[Kstd::shared_ptr<tf2_ros::TransformListener>&&\x1b[m\x1b[K\xe2\x80\x99\n'}
+[0.785958] (goal) StderrLine: {'line': b'  254 |       shared_ptr(\x1b[01;36m\x1b[Kshared_ptr&& __r\x1b[m\x1b[K) noexcept\n'}
+[0.785981] (goal) StderrLine: {'line': b'      |                  \x1b[01;36m\x1b[K~~~~~~~~~~~~~^~~\x1b[m\x1b[K\n'}
+[0.786004] (goal) StderrLine: {'line': b'\x1b[01m\x1b[K/usr/include/c++/9/bits/shared_ptr.h:246:2:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[Kcandidate: \xe2\x80\x98\x1b[01m\x1b[Ktemplate<class _Yp, class> std::shared_ptr<_Tp>::shared_ptr(const std::shared_ptr<_Yp>&)\x1b[m\x1b[K\xe2\x80\x99\n'}
+[0.786027] (goal) StderrLine: {'line': b'  246 |  \x1b[01;36m\x1b[Kshared_ptr\x1b[m\x1b[K(const shared_ptr<_Yp>& __r) noexcept\n'}
+[0.786049] (goal) StderrLine: {'line': b'      |  \x1b[01;36m\x1b[K^~~~~~~~~~\x1b[m\x1b[K\n'}
+[0.786071] (goal) StderrLine: {'line': b'\x1b[01m\x1b[K/usr/include/c++/9/bits/shared_ptr.h:246:2:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[K  template argument deduction/substitution failed:\n'}
+[0.786094] (goal) StderrLine: {'line': b'\x1b[01m\x1b[K/home/max/Documents/GitHub/IR2121/Navigation/nav/src/goal/publisher.cpp:21:66:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[K  \xe2\x80\x98\x1b[01m\x1b[Kstd::unique_ptr<tf2_ros::Buffer>\x1b[m\x1b[K\xe2\x80\x99 is not derived from \xe2\x80\x98\x1b[01m\x1b[Kconst std::shared_ptr<_Tp>\x1b[m\x1b[K\xe2\x80\x99\n'}
+[0.786117] (goal) StderrLine: {'line': b'   21 |   std::shared_ptr<tf2_ros::TransformListener> listener(tf2_buffer\x1b[01;36m\x1b[K)\x1b[m\x1b[K;\n'}
+[0.786140] (goal) StderrLine: {'line': b'      |                                                                  \x1b[01;36m\x1b[K^\x1b[m\x1b[K\n'}
+[0.786163] (goal) StderrLine: {'line': b'In file included from \x1b[01m\x1b[K/usr/include/c++/9/memory:81\x1b[m\x1b[K,\n'}
+[0.786186] (goal) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/foxy/include/rclcpp/rclcpp.hpp:144\x1b[m\x1b[K,\n'}
+[0.786209] (goal) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/home/max/Documents/GitHub/IR2121/Navigation/nav/src/goal/publisher.cpp:2\x1b[m\x1b[K:\n'}
+[0.786231] (goal) StderrLine: {'line': b'\x1b[01m\x1b[K/usr/include/c++/9/bits/shared_ptr.h:234:2:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[Kcandidate: \xe2\x80\x98\x1b[01m\x1b[Ktemplate<class _Yp> std::shared_ptr<_Tp>::shared_ptr(const std::shared_ptr<_Yp>&, std::shared_ptr<_Tp>::element_type*)\x1b[m\x1b[K\xe2\x80\x99\n'}
+[0.786255] (goal) StderrLine: {'line': b'  234 |  \x1b[01;36m\x1b[Kshared_ptr\x1b[m\x1b[K(const shared_ptr<_Yp>& __r, element_type* __p) noexcept\n'}
+[0.786278] (goal) StderrLine: {'line': b'      |  \x1b[01;36m\x1b[K^~~~~~~~~~\x1b[m\x1b[K\n'}
+[0.786302] (goal) StderrLine: {'line': b'\x1b[01m\x1b[K/usr/include/c++/9/bits/shared_ptr.h:234:2:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[K  template argument deduction/substitution failed:\n'}
+[0.786327] (goal) StderrLine: {'line': b'\x1b[01m\x1b[K/home/max/Documents/GitHub/IR2121/Navigation/nav/src/goal/publisher.cpp:21:66:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[K  \xe2\x80\x98\x1b[01m\x1b[Kstd::unique_ptr<tf2_ros::Buffer>\x1b[m\x1b[K\xe2\x80\x99 is not derived from \xe2\x80\x98\x1b[01m\x1b[Kconst std::shared_ptr<_Tp>\x1b[m\x1b[K\xe2\x80\x99\n'}
+[0.786354] (goal) StderrLine: {'line': b'   21 |   std::shared_ptr<tf2_ros::TransformListener> listener(tf2_buffer\x1b[01;36m\x1b[K)\x1b[m\x1b[K;\n'}
+[0.786380] (goal) StderrLine: {'line': b'      |                                                                  \x1b[01;36m\x1b[K^\x1b[m\x1b[K\n'}
+[0.786405] (goal) StderrLine: {'line': b'In file included from \x1b[01m\x1b[K/usr/include/c++/9/memory:81\x1b[m\x1b[K,\n'}
+[0.786429] (goal) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/foxy/include/rclcpp/rclcpp.hpp:144\x1b[m\x1b[K,\n'}
+[0.786454] (goal) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/home/max/Documents/GitHub/IR2121/Navigation/nav/src/goal/publisher.cpp:2\x1b[m\x1b[K:\n'}
+[0.786479] (goal) StderrLine: {'line': b'\x1b[01m\x1b[K/usr/include/c++/9/bits/shared_ptr.h:212:2:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[Kcandidate: \xe2\x80\x98\x1b[01m\x1b[Ktemplate<class _Deleter, class _Alloc> std::shared_ptr<_Tp>::shared_ptr(std::nullptr_t, _Deleter, _Alloc)\x1b[m\x1b[K\xe2\x80\x99\n'}
+[0.786508] (goal) StderrLine: {'line': b'  212 |  \x1b[01;36m\x1b[Kshared_ptr\x1b[m\x1b[K(nullptr_t __p, _Deleter __d, _Alloc __a)\n'}
+[0.786532] (goal) StderrLine: {'line': b'      |  \x1b[01;36m\x1b[K^~~~~~~~~~\x1b[m\x1b[K\n'}
+[0.786556] (goal) StderrLine: {'line': b'\x1b[01m\x1b[K/usr/include/c++/9/bits/shared_ptr.h:212:2:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[K  template argument deduction/substitution failed:\n'}
+[0.786579] (goal) StderrLine: {'line': b'\x1b[01m\x1b[K/home/max/Documents/GitHub/IR2121/Navigation/nav/src/goal/publisher.cpp:21:66:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[K  candidate expects 3 arguments, 1 provided\n'}
+[0.786602] (goal) StderrLine: {'line': b'   21 |   std::shared_ptr<tf2_ros::TransformListener> listener(tf2_buffer\x1b[01;36m\x1b[K)\x1b[m\x1b[K;\n'}
+[0.786625] (goal) StderrLine: {'line': b'      |                                                                  \x1b[01;36m\x1b[K^\x1b[m\x1b[K\n'}
+[0.786648] (goal) StderrLine: {'line': b'In file included from \x1b[01m\x1b[K/usr/include/c++/9/memory:81\x1b[m\x1b[K,\n'}
+[0.786671] (goal) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/foxy/include/rclcpp/rclcpp.hpp:144\x1b[m\x1b[K,\n'}
+[0.786694] (goal) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/home/max/Documents/GitHub/IR2121/Navigation/nav/src/goal/publisher.cpp:2\x1b[m\x1b[K:\n'}
+[0.786717] (goal) StderrLine: {'line': b'\x1b[01m\x1b[K/usr/include/c++/9/bits/shared_ptr.h:193:2:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[Kcandidate: \xe2\x80\x98\x1b[01m\x1b[Ktemplate<class _Yp, class _Deleter, class _Alloc, class> std::shared_ptr<_Tp>::shared_ptr(_Yp*, _Deleter, _Alloc)\x1b[m\x1b[K\xe2\x80\x99\n'}
+[0.786741] (goal) StderrLine: {'line': b'  193 |  \x1b[01;36m\x1b[Kshared_ptr\x1b[m\x1b[K(_Yp* __p, _Deleter __d, _Alloc __a)\n'}
+[0.786765] (goal) StderrLine: {'line': b'      |  \x1b[01;36m\x1b[K^~~~~~~~~~\x1b[m\x1b[K\n'}
+[0.786788] (goal) StderrLine: {'line': b'\x1b[01m\x1b[K/usr/include/c++/9/bits/shared_ptr.h:193:2:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[K  template argument deduction/substitution failed:\n'}
+[0.786810] (goal) StderrLine: {'line': b'\x1b[01m\x1b[K/home/max/Documents/GitHub/IR2121/Navigation/nav/src/goal/publisher.cpp:21:66:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[K  mismatched types \xe2\x80\x98\x1b[01m\x1b[K_Yp*\x1b[m\x1b[K\xe2\x80\x99 and \xe2\x80\x98\x1b[01m\x1b[Kstd::unique_ptr<tf2_ros::Buffer>\x1b[m\x1b[K\xe2\x80\x99\n'}
+[0.786834] (goal) StderrLine: {'line': b'   21 |   std::shared_ptr<tf2_ros::TransformListener> listener(tf2_buffer\x1b[01;36m\x1b[K)\x1b[m\x1b[K;\n'}
+[0.786858] (goal) StderrLine: {'line': b'      |                                                                  \x1b[01;36m\x1b[K^\x1b[m\x1b[K\n'}
+[0.786881] (goal) StderrLine: {'line': b'In file included from \x1b[01m\x1b[K/usr/include/c++/9/memory:81\x1b[m\x1b[K,\n'}
+[0.786903] (goal) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/foxy/include/rclcpp/rclcpp.hpp:144\x1b[m\x1b[K,\n'}
+[0.786925] (goal) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/home/max/Documents/GitHub/IR2121/Navigation/nav/src/goal/publisher.cpp:2\x1b[m\x1b[K:\n'}
+[0.786947] (goal) StderrLine: {'line': b'\x1b[01m\x1b[K/usr/include/c++/9/bits/shared_ptr.h:173:2:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[Kcandidate: \xe2\x80\x98\x1b[01m\x1b[Ktemplate<class _Deleter> std::shared_ptr<_Tp>::shared_ptr(std::nullptr_t, _Deleter)\x1b[m\x1b[K\xe2\x80\x99\n'}
+[0.786970] (goal) StderrLine: {'line': b'  173 |  \x1b[01;36m\x1b[Kshared_ptr\x1b[m\x1b[K(nullptr_t __p, _Deleter __d)\n'}
+[0.786992] (goal) StderrLine: {'line': b'      |  \x1b[01;36m\x1b[K^~~~~~~~~~\x1b[m\x1b[K\n'}
+[0.787015] (goal) StderrLine: {'line': b'\x1b[01m\x1b[K/usr/include/c++/9/bits/shared_ptr.h:173:2:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[K  template argument deduction/substitution failed:\n'}
+[0.787036] (goal) StderrLine: {'line': b'\x1b[01m\x1b[K/home/max/Documents/GitHub/IR2121/Navigation/nav/src/goal/publisher.cpp:21:66:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[K  candidate expects 2 arguments, 1 provided\n'}
+[0.787060] (goal) StderrLine: {'line': b'   21 |   std::shared_ptr<tf2_ros::TransformListener> listener(tf2_buffer\x1b[01;36m\x1b[K)\x1b[m\x1b[K;\n'}
+[0.787083] (goal) StderrLine: {'line': b'      |                                                                  \x1b[01;36m\x1b[K^\x1b[m\x1b[K\n'}
+[0.787107] (goal) StderrLine: {'line': b'In file included from \x1b[01m\x1b[K/usr/include/c++/9/memory:81\x1b[m\x1b[K,\n'}
+[0.787131] (goal) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/foxy/include/rclcpp/rclcpp.hpp:144\x1b[m\x1b[K,\n'}
+[0.787154] (goal) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/home/max/Documents/GitHub/IR2121/Navigation/nav/src/goal/publisher.cpp:2\x1b[m\x1b[K:\n'}
+[0.787187] (goal) StderrLine: {'line': b'\x1b[01m\x1b[K/usr/include/c++/9/bits/shared_ptr.h:156:2:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[Kcandidate: \xe2\x80\x98\x1b[01m\x1b[Ktemplate<class _Yp, class _Deleter, class> std::shared_ptr<_Tp>::shared_ptr(_Yp*, _Deleter)\x1b[m\x1b[K\xe2\x80\x99\n'}
+[0.787211] (goal) StderrLine: {'line': b'  156 |  \x1b[01;36m\x1b[Kshared_ptr\x1b[m\x1b[K(_Yp* __p, _Deleter __d)\n'}
+[0.787236] (goal) StderrLine: {'line': b'      |  \x1b[01;36m\x1b[K^~~~~~~~~~\x1b[m\x1b[K\n'}
+[0.787261] (goal) StderrLine: {'line': b'\x1b[01m\x1b[K/usr/include/c++/9/bits/shared_ptr.h:156:2:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[K  template argument deduction/substitution failed:\n'}
+[0.787284] (goal) StderrLine: {'line': b'\x1b[01m\x1b[K/home/max/Documents/GitHub/IR2121/Navigation/nav/src/goal/publisher.cpp:21:66:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[K  mismatched types \xe2\x80\x98\x1b[01m\x1b[K_Yp*\x1b[m\x1b[K\xe2\x80\x99 and \xe2\x80\x98\x1b[01m\x1b[Kstd::unique_ptr<tf2_ros::Buffer>\x1b[m\x1b[K\xe2\x80\x99\n'}
+[0.787308] (goal) StderrLine: {'line': b'   21 |   std::shared_ptr<tf2_ros::TransformListener> listener(tf2_buffer\x1b[01;36m\x1b[K)\x1b[m\x1b[K;\n'}
+[0.787332] (goal) StderrLine: {'line': b'      |                                                                  \x1b[01;36m\x1b[K^\x1b[m\x1b[K\n'}
+[0.787356] (goal) StderrLine: {'line': b'In file included from \x1b[01m\x1b[K/usr/include/c++/9/memory:81\x1b[m\x1b[K,\n'}
+[0.787379] (goal) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/foxy/include/rclcpp/rclcpp.hpp:144\x1b[m\x1b[K,\n'}
+[0.787404] (goal) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/home/max/Documents/GitHub/IR2121/Navigation/nav/src/goal/publisher.cpp:2\x1b[m\x1b[K:\n'}
+[0.787429] (goal) StderrLine: {'line': b'\x1b[01m\x1b[K/usr/include/c++/9/bits/shared_ptr.h:139:2:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[Kcandidate: \xe2\x80\x98\x1b[01m\x1b[Ktemplate<class _Yp, class> std::shared_ptr<_Tp>::shared_ptr(_Yp*)\x1b[m\x1b[K\xe2\x80\x99\n'}
+[0.787452] (goal) StderrLine: {'line': b'  139 |  \x1b[01;36m\x1b[Kshared_ptr\x1b[m\x1b[K(_Yp* __p) : __shared_ptr<_Tp>(__p) { }\n'}
+[0.787476] (goal) StderrLine: {'line': b'      |  \x1b[01;36m\x1b[K^~~~~~~~~~\x1b[m\x1b[K\n'}
+[0.787499] (goal) StderrLine: {'line': b'\x1b[01m\x1b[K/usr/include/c++/9/bits/shared_ptr.h:139:2:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[K  template argument deduction/substitution failed:\n'}
+[0.787522] (goal) StderrLine: {'line': b'\x1b[01m\x1b[K/home/max/Documents/GitHub/IR2121/Navigation/nav/src/goal/publisher.cpp:21:66:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[K  mismatched types \xe2\x80\x98\x1b[01m\x1b[K_Yp*\x1b[m\x1b[K\xe2\x80\x99 and \xe2\x80\x98\x1b[01m\x1b[Kstd::unique_ptr<tf2_ros::Buffer>\x1b[m\x1b[K\xe2\x80\x99\n'}
+[0.787545] (goal) StderrLine: {'line': b'   21 |   std::shared_ptr<tf2_ros::TransformListener> listener(tf2_buffer\x1b[01;36m\x1b[K)\x1b[m\x1b[K;\n'}
+[0.787567] (goal) StderrLine: {'line': b'      |                                                                  \x1b[01;36m\x1b[K^\x1b[m\x1b[K\n'}
+[0.787591] (goal) StderrLine: {'line': b'In file included from \x1b[01m\x1b[K/usr/include/c++/9/memory:81\x1b[m\x1b[K,\n'}
+[0.787617] (goal) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/foxy/include/rclcpp/rclcpp.hpp:144\x1b[m\x1b[K,\n'}
+[0.787641] (goal) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/home/max/Documents/GitHub/IR2121/Navigation/nav/src/goal/publisher.cpp:2\x1b[m\x1b[K:\n'}
+[0.787666] (goal) StderrLine: {'line': b'\x1b[01m\x1b[K/usr/include/c++/9/bits/shared_ptr.h:129:7:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[Kcandidate: \xe2\x80\x98\x1b[01m\x1b[Kstd::shared_ptr<_Tp>::shared_ptr(const std::shared_ptr<_Tp>&) [with _Tp = tf2_ros::TransformListener]\x1b[m\x1b[K\xe2\x80\x99\n'}
+[0.787691] (goal) StderrLine: {'line': b'  129 |       \x1b[01;36m\x1b[Kshared_ptr\x1b[m\x1b[K(const shared_ptr&) noexcept = default;\n'}
+[0.787715] (goal) StderrLine: {'line': b'      |       \x1b[01;36m\x1b[K^~~~~~~~~~\x1b[m\x1b[K\n'}
+[0.787739] (goal) StderrLine: {'line': b'\x1b[01m\x1b[K/usr/include/c++/9/bits/shared_ptr.h:129:18:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[K  no known conversion for argument 1 from \xe2\x80\x98\x1b[01m\x1b[Kstd::unique_ptr<tf2_ros::Buffer>\x1b[m\x1b[K\xe2\x80\x99 to \xe2\x80\x98\x1b[01m\x1b[Kconst std::shared_ptr<tf2_ros::TransformListener>&\x1b[m\x1b[K\xe2\x80\x99\n'}
+[0.787764] (goal) StderrLine: {'line': b'  129 |       shared_ptr(\x1b[01;36m\x1b[Kconst shared_ptr&\x1b[m\x1b[K) noexcept = default;\n'}
+[0.787787] (goal) StderrLine: {'line': b'      |                  \x1b[01;36m\x1b[K^~~~~~~~~~~~~~~~~\x1b[m\x1b[K\n'}
+[0.787810] (goal) StderrLine: {'line': b'\x1b[01m\x1b[K/usr/include/c++/9/bits/shared_ptr.h:127:17:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[Kcandidate: \xe2\x80\x98\x1b[01m\x1b[Kconstexpr std::shared_ptr<_Tp>::shared_ptr() [with _Tp = tf2_ros::TransformListener]\x1b[m\x1b[K\xe2\x80\x99\n'}
+[0.787834] (goal) StderrLine: {'line': b'  127 |       constexpr \x1b[01;36m\x1b[Kshared_ptr\x1b[m\x1b[K() noexcept : __shared_ptr<_Tp>() { }\n'}
+[0.787856] (goal) StderrLine: {'line': b'      |                 \x1b[01;36m\x1b[K^~~~~~~~~~\x1b[m\x1b[K\n'}
+[0.787879] (goal) StderrLine: {'line': b'\x1b[01m\x1b[K/usr/include/c++/9/bits/shared_ptr.h:127:17:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[K  candidate expects 0 arguments, 1 provided\n'}
+[0.789138] (goal) StderrLine: {'line': b'\x1b[01m\x1b[K/home/max/Documents/GitHub/IR2121/Navigation/nav/src/goal/publisher.cpp:36:31:\x1b[m\x1b[K \x1b[01;31m\x1b[Kerror: \x1b[m\x1b[K\xe2\x80\x98\x1b[01m\x1b[Kclass std::unique_ptr<tf2_ros::Buffer>\x1b[m\x1b[K\xe2\x80\x99 has no member named \xe2\x80\x98\x1b[01m\x1b[KlookupTransform\x1b[m\x1b[K\xe2\x80\x99\n'}
+[0.789211] (goal) StderrLine: {'line': b'   36 |     map_baselink = tf2_buffer.\x1b[01;31m\x1b[KlookupTransform\x1b[m\x1b[K("base_link", "map", rclcpp::Time(0), rclcpp::Duration(1.0));\n'}
+[0.789243] (goal) StderrLine: {'line': b'      |                               \x1b[01;31m\x1b[K^~~~~~~~~~~~~~~\x1b[m\x1b[K\n'}
+[0.801165] (-) TimerEvent: {}
+[0.901439] (-) TimerEvent: {}
+[1.001754] (-) TimerEvent: {}
+[1.102073] (-) TimerEvent: {}
+[1.202396] (-) TimerEvent: {}
+[1.216533] (goal) StderrLine: {'line': b'make[2]: *** [CMakeFiles/publisher.dir/build.make:63: CMakeFiles/publisher.dir/publisher.cpp.o] Error 1\n'}
+[1.216767] (goal) StderrLine: {'line': b'make[1]: *** [CMakeFiles/Makefile2:78: CMakeFiles/publisher.dir/all] Error 2\n'}
+[1.216925] (goal) StderrLine: {'line': b'make: *** [Makefile:141: all] Error 2\n'}
+[1.219314] (goal) CommandEnded: {'returncode': 2}
+[1.302030] (goal) JobEnded: {'identifier': 'goal', 'rc': 2}
+[1.302718] (-) TimerEvent: {}
+[1.312383] (-) EventReactorShutdown: {}
