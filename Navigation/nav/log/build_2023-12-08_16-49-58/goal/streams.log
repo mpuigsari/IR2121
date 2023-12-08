@@ -1,0 +1,14 @@
+[0.091s] Invoking command in '/home/max/Documents/GitHub/IR2121/Navigation/nav/build/goal': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/max/ws/install/opencv_tests:/opt/ros/foxy /usr/bin/cmake --build /home/max/Documents/GitHub/IR2121/Navigation/nav/build/goal -- -j20 -l20
+[0.114s] [35m[1mScanning dependencies of target publisher[0m
+[0.129s] [ 50%] [32mBuilding CXX object CMakeFiles/publisher.dir/publisher.cpp.o[0m
+[0.775s] [01m[K/home/max/Documents/GitHub/IR2121/Navigation/nav/src/goal/publisher.cpp:13:1:[m[K [01;31m[Kerror: [m[K‘[01m[Ktf2_ros::Buffer::Buffer[m[K’ names the constructor, not the type
+[0.775s]    13 | [01;31m[Ktf2_ros[m[K::Buffer::Buffer tf2_buffer;
+[0.775s]       | [01;31m[K^~~~~~~[m[K
+[0.778s] [01m[K/home/max/Documents/GitHub/IR2121/Navigation/nav/src/goal/publisher.cpp:[m[K In function ‘[01m[Kint main(int, char**)[m[K’:
+[0.778s] [01m[K/home/max/Documents/GitHub/IR2121/Navigation/nav/src/goal/publisher.cpp:21:39:[m[K [01;31m[Kerror: [m[K‘[01m[Ktf2_buffer[m[K’ was not declared in this scope
+[0.778s]    21 |   tf2_ros::TransformListener listener([01;31m[Ktf2_buffer[m[K);
+[0.778s]       |                                       [01;31m[K^~~~~~~~~~[m[K
+[1.207s] make[2]: *** [CMakeFiles/publisher.dir/build.make:63: CMakeFiles/publisher.dir/publisher.cpp.o] Error 1
+[1.207s] make[1]: *** [CMakeFiles/Makefile2:78: CMakeFiles/publisher.dir/all] Error 2
+[1.207s] make: *** [Makefile:141: all] Error 2
+[1.209s] Invoked command in '/home/max/Documents/GitHub/IR2121/Navigation/nav/build/goal' returned '2': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/max/ws/install/opencv_tests:/opt/ros/foxy /usr/bin/cmake --build /home/max/Documents/GitHub/IR2121/Navigation/nav/build/goal -- -j20 -l20

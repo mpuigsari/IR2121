@@ -1,43 +1,45 @@
 #include <chrono>
 #include "rclcpp/rclcpp.hpp"
 #include "geometry_msgs/msg/pose_stamped.hpp"
-#include "geometry_msgs/msg/transformed_stamped.hpp"
+#include "geometry_msgs/msg/transform_stamped.hpp"
 #include "tf2_ros/transform_listener.h"
 #include "tf2_ros/buffer.h"
-
-
+#include "tf2_geometry_msgs/tf2_geometry_msgs.h"
 #include <iostream>
 #include <cstdlib>
 
 using namespace std::chrono_literals;
 
-double pxs,pys;
 
+tf2_ros::Buffer tf2_buffer;
 
 int main(int argc, char * argv[])
 {
   rclcpp::init(argc, argv);
   auto node = rclcpp::Node::make_shared("publisher");
   auto publisher = node->create_publisher<geometry_msgs::msg::PoseStamped>("goal_pose", 10);
-  tf2_ros::Buffer buffer;
-  tf2_ros::TransformListener listener(buffer);
-  geometry::msgs::TransformStamped map_baselink;
-  geometry_msgs::msg::PoseStamped message;
+  
+  tf2_ros::TransformListener listener(tf2_buffer);
+  geometry_msgs::msg::TransformStamped map_baselink;
+  geometry_msgs::msg::PoseStamped message, current;
+
   rclcpp::WallRate loop_rate(500ms);
   
-  double px[3]={-1,8.5,7.5}, py[3]={3,5,-2},pxi,pyi;
+  double px[3]={-1,8.5,7.5}, py[3]={3,5,-2},pxs,pys;
   int i=0;
   
   while (rclcpp::ok() & (i<3)) {
     message.pose.position.x = px[i];
     message.pose.position.y = py[i];
     publisher->publish(message);
-    pxi=std::abs(px[i]);
-    pyi=std::abs(py[i]);
-    pxs=std::abs(pxs);
-    pys=std::abs(pys);
     
-    if((std::abs(pxi-pxs)<0.25)&(std::abs(pyi-pys)<0.25)) 
+    map_baselink = tf2_buffer.lookupTransform("base_link", "map", rclcpp::Time(0), rclcpp::Duration(1.0));
+    tf2::doTransform(message, current, map_baselink);
+    
+    pxs=std::abs(current.pose.position.x);
+    pys=std::abs(current.pose.position.y);
+    
+    if((pxs<0.25)&(pys<0.25)) 
       i=i+1;
     
     

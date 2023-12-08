@@ -1,0 +1,31 @@
+[01m[K/home/max/Documents/GitHub/IR2121/Navigation/nav/src/goal/publisher.cpp:[m[K In function ‘[01m[Kint main(int, char**)[m[K’:
+[01m[K/home/max/Documents/GitHub/IR2121/Navigation/nav/src/goal/publisher.cpp:21:19:[m[K [01;31m[Kerror: [m[Kno matching function for call to ‘[01m[Ktf2_ros::Buffer::Buffer()[m[K’
+   21 |   tf2_ros::Buffer [01;31m[Ktf2_buffer[m[K;
+      |                   [01;31m[K^~~~~~~~~~[m[K
+In file included from [01m[K/opt/ros/foxy/include/tf2_ros/transform_listener.h:41[m[K,
+                 from [01m[K/home/max/Documents/GitHub/IR2121/Navigation/nav/src/goal/publisher.cpp:5[m[K:
+[01m[K/opt/ros/foxy/include/tf2_ros/buffer.h:71:20:[m[K [01;36m[Knote: [m[Kcandidate: ‘[01m[Ktf2_ros::Buffer::Buffer(rclcpp::Clock::SharedPtr, tf2::Duration)[m[K’
+   71 |     TF2_ROS_PUBLIC [01;36m[KBuffer[m[K(rclcpp::Clock::SharedPtr clock, tf2::Duration cache_time = tf2::Duration(tf2::BUFFER_CORE_DEFAULT_CACHE_TIME));
+      |                    [01;36m[K^~~~~~[m[K
+[01m[K/opt/ros/foxy/include/tf2_ros/buffer.h:71:20:[m[K [01;36m[Knote: [m[K  candidate expects 2 arguments, 0 provided
+[01m[K/home/max/Documents/GitHub/IR2121/Navigation/nav/src/goal/publisher.cpp:22:39:[m[K [01;31m[Kerror: [m[K‘[01m[Kbuffer[m[K’ was not declared in this scope; did you mean ‘[01m[Ksetbuffer[m[K’?
+   22 |   tf2_ros::TransformListener listener([01;31m[Kbuffer[m[K);
+      |                                       [01;31m[K^~~~~~[m[K
+      |                                       [32m[Ksetbuffer[m[K
+[01m[K/home/max/Documents/GitHub/IR2121/Navigation/nav/src/goal/publisher.cpp:23:18:[m[K [01;31m[Kerror: [m[K‘[01m[Kgeometry_msgs::msgs[m[K’ has not been declared
+   23 |   geometry_msgs::[01;31m[Kmsgs[m[K::TransformStamped map_baselink;
+      |                  [01;31m[K^~~~[m[K
+[01m[K/home/max/Documents/GitHub/IR2121/Navigation/nav/src/goal/publisher.cpp:32:5:[m[K [01;31m[Kerror: [m[K‘[01m[Kmap_baselink[m[K’ was not declared in this scope
+   32 |     [01;31m[Kmap_baselink[m[K = tf2_buffer.lookupTransform("base_link", "map", ros::Time(0), ros::Duration(1.0));
+      |     [01;31m[K^~~~~~~~~~~~[m[K
+[01m[K/home/max/Documents/GitHub/IR2121/Navigation/nav/src/goal/publisher.cpp:32:67:[m[K [01;31m[Kerror: [m[K‘[01m[Kros[m[K’ has not been declared
+   32 | ap_baselink = tf2_buffer.lookupTransform("base_link", "map", [01;31m[Kros[m[K::Time(0), ros::Duration(1.0));
+      |                                                              [01;31m[K^~~[m[K
+
+[01m[K/home/max/Documents/GitHub/IR2121/Navigation/nav/src/goal/publisher.cpp:32:81:[m[K [01;31m[Kerror: [m[K‘[01m[Kros[m[K’ has not been declared
+   32 | tf2_buffer.lookupTransform("base_link", "map", ros::Time(0), [01;31m[Kros[m[K::Duration(1.0));
+      |                                                              [01;31m[K^~~[m[K
+
+make[2]: *** [CMakeFiles/publisher.dir/build.make:63: CMakeFiles/publisher.dir/publisher.cpp.o] Error 1
+make[1]: *** [CMakeFiles/Makefile2:78: CMakeFiles/publisher.dir/all] Error 2
+make: *** [Makefile:141: all] Error 2
