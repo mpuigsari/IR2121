@@ -12,8 +12,8 @@ using namespace std::chrono_literals;
 double pxs,pys;
 void topic_callback(const geometry_msgs::msg::PoseWithCovarianceStamped::SharedPtr msg)
 {
- pxs = msg->pose.pose.position.x +2.08156;
- pys = msg->pose.pose.position.y +0.4406;
+ pxs = msg->pose.pose.position.x;
+ pys = msg->pose.pose.position.y;
 
 }
 
