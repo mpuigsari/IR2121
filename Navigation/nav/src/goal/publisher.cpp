@@ -21,7 +21,7 @@ int main(int argc, char * argv[])
   rclcpp::init(argc, argv);
   auto node = rclcpp::Node::make_shared("publisher");
   auto publisher = node->create_publisher<geometry_msgs::msg::PoseStamped>("goal_pose", 10);
-  auto subscription = node->create_subscription<nav_msgs::msg::Odometry>("odom", 10, topic_callback);
+  auto subscription = node->create_subscription<nav_msgs::msg::Odometry>("amcl_pose", 10, topic_callback);
   geometry_msgs::msg::PoseStamped message;
   rclcpp::WallRate loop_rate(500ms);
   double px[3]={-1,8.5,7.5}, py[3]={3,5,-2},pxi,pyi;
