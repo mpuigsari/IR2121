@@ -1,2 +1,0 @@
-Invoking command in '/home/max/Documents/GitHub/IR2121/Navigation/nav/build/examples_topics': /usr/bin/cmake /home/max/Documents/GitHub/IR2121/Navigation/nav/src/goal -DCMAKE_INSTALL_PREFIX=/home/max/Documents/GitHub/IR2121/Navigation/nav/install/examples_topics
-Invoked command in '/home/max/Documents/GitHub/IR2121/Navigation/nav/build/examples_topics' returned '1': /usr/bin/cmake /home/max/Documents/GitHub/IR2121/Navigation/nav/src/goal -DCMAKE_INSTALL_PREFIX=/home/max/Documents/GitHub/IR2121/Navigation/nav/install/examples_topics

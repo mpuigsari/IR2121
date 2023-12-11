@@ -1,0 +1,26 @@
+[0.021s] Invoking command in '/home/usuario/Documentos/GitHub/IR2121/Navigation/nav/build/goal': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/foxy /usr/bin/cmake --build /home/usuario/Documentos/GitHub/IR2121/Navigation/nav/build/goal -- -j6 -l6
+[0.077s] [35m[1mScanning dependencies of target publisher[0m
+[0.137s] [ 50%] [32mBuilding CXX object CMakeFiles/publisher.dir/publisher.cpp.o[0m
+[67.393s] [100%] [32m[1mLinking CXX executable publisher[0m
+[70.011s] [100%] Built target publisher
+[70.022s] Invoked command in '/home/usuario/Documentos/GitHub/IR2121/Navigation/nav/build/goal' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/foxy /usr/bin/cmake --build /home/usuario/Documentos/GitHub/IR2121/Navigation/nav/build/goal -- -j6 -l6
+[70.048s] Invoking command in '/home/usuario/Documentos/GitHub/IR2121/Navigation/nav/build/goal': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/foxy /usr/bin/cmake --install /home/usuario/Documentos/GitHub/IR2121/Navigation/nav/build/goal
+[70.061s] -- Install configuration: ""
+[70.061s] -- Installing: /home/usuario/Documentos/GitHub/IR2121/Navigation/nav/install/goal/lib/goal/publisher
+[70.061s] -- Set runtime path of "/home/usuario/Documentos/GitHub/IR2121/Navigation/nav/install/goal/lib/goal/publisher" to ""
+[70.061s] -- Up-to-date: /home/usuario/Documentos/GitHub/IR2121/Navigation/nav/install/goal/share/ament_index/resource_index/package_run_dependencies/goal
+[70.061s] -- Up-to-date: /home/usuario/Documentos/GitHub/IR2121/Navigation/nav/install/goal/share/ament_index/resource_index/parent_prefix_path/goal
+[70.061s] -- Up-to-date: /home/usuario/Documentos/GitHub/IR2121/Navigation/nav/install/goal/share/goal/environment/ament_prefix_path.sh
+[70.062s] -- Up-to-date: /home/usuario/Documentos/GitHub/IR2121/Navigation/nav/install/goal/share/goal/environment/ament_prefix_path.dsv
+[70.062s] -- Up-to-date: /home/usuario/Documentos/GitHub/IR2121/Navigation/nav/install/goal/share/goal/environment/path.sh
+[70.062s] -- Up-to-date: /home/usuario/Documentos/GitHub/IR2121/Navigation/nav/install/goal/share/goal/environment/path.dsv
+[70.062s] -- Up-to-date: /home/usuario/Documentos/GitHub/IR2121/Navigation/nav/install/goal/share/goal/local_setup.bash
+[70.062s] -- Up-to-date: /home/usuario/Documentos/GitHub/IR2121/Navigation/nav/install/goal/share/goal/local_setup.sh
+[70.062s] -- Up-to-date: /home/usuario/Documentos/GitHub/IR2121/Navigation/nav/install/goal/share/goal/local_setup.zsh
+[70.062s] -- Up-to-date: /home/usuario/Documentos/GitHub/IR2121/Navigation/nav/install/goal/share/goal/local_setup.dsv
+[70.062s] -- Installing: /home/usuario/Documentos/GitHub/IR2121/Navigation/nav/install/goal/share/goal/package.dsv
+[70.064s] -- Up-to-date: /home/usuario/Documentos/GitHub/IR2121/Navigation/nav/install/goal/share/ament_index/resource_index/packages/goal
+[70.064s] -- Up-to-date: /home/usuario/Documentos/GitHub/IR2121/Navigation/nav/install/goal/share/goal/cmake/goalConfig.cmake
+[70.064s] -- Up-to-date: /home/usuario/Documentos/GitHub/IR2121/Navigation/nav/install/goal/share/goal/cmake/goalConfig-version.cmake
+[70.064s] -- Up-to-date: /home/usuario/Documentos/GitHub/IR2121/Navigation/nav/install/goal/share/goal/package.xml
+[70.067s] Invoked command in '/home/usuario/Documentos/GitHub/IR2121/Navigation/nav/build/goal' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/foxy /usr/bin/cmake --install /home/usuario/Documentos/GitHub/IR2121/Navigation/nav/build/goal

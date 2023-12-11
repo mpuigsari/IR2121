@@ -33,7 +33,7 @@ int main(int argc, char * argv[])
     message.pose.position.y = py[i];
     publisher->publish(message);
     
-    map_baselink = buffer->lookupTransform("base_link", "map", rclcpp::Time(0), rclcpp::Duration(2.0));
+    map_baselink = buffer->lookupTransform("base_footprint", "map", rclcpp::Time(0), rclcpp::Duration(7s));
     tf2::doTransform(message, current, map_baselink);
     
     pxs=std::abs(current.pose.position.x);

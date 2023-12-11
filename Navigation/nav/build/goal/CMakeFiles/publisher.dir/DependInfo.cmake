@@ -4,7 +4,7 @@ set(CMAKE_DEPENDS_LANGUAGES
   )
 # The set of files for implicit dependencies of each language:
 set(CMAKE_DEPENDS_CHECK_CXX
-  "/home/max/Documents/GitHub/IR2121/Navigation/nav/src/goal/publisher.cpp" "/home/max/Documents/GitHub/IR2121/Navigation/nav/build/goal/CMakeFiles/publisher.dir/publisher.cpp.o"
+  "/home/usuario/Documentos/GitHub/IR2121/Navigation/nav/src/goal/publisher.cpp" "/home/usuario/Documentos/GitHub/IR2121/Navigation/nav/build/goal/CMakeFiles/publisher.dir/publisher.cpp.o"
   )
 set(CMAKE_CXX_COMPILER_ID "GNU")
 

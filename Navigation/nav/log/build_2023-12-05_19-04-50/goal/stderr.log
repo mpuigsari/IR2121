@@ -1,4 +1,0 @@
-[01m[K/home/max/Documents/GitHub/IR2121/Navigation/nav/src/goal/publisher.cpp:[m[K In function ‘[01m[Kint main(int, char**)[m[K’:
-[01m[K/home/max/Documents/GitHub/IR2121/Navigation/nav/src/goal/publisher.cpp:31:26:[m[K [01;35m[Kwarning: [m[Ksuggest parentheses around comparison in operand of ‘[01m[K&[m[K’ [[01;35m[K-Wparentheses[m[K]
-   31 |   while (rclcpp::ok() & [01;35m[Ki<4[m[K) {
-      |                         [01;35m[K~^~[m[K

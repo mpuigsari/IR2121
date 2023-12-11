@@ -48,10 +48,10 @@ RM = /usr/bin/cmake -E remove -f
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = /home/max/Documents/GitHub/IR2121/Navigation/nav/src/goal
+CMAKE_SOURCE_DIR = /home/usuario/Documentos/GitHub/IR2121/Navigation/nav/src/goal
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = /home/max/Documents/GitHub/IR2121/Navigation/nav/build/goal
+CMAKE_BINARY_DIR = /home/usuario/Documentos/GitHub/IR2121/Navigation/nav/build/goal
 
 #=============================================================================
 # Targets provided globally by CMake.
@@ -137,9 +137,9 @@ install/strip/fast: preinstall/fast
 
 # The main all target
 all: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/max/Documents/GitHub/IR2121/Navigation/nav/build/goal/CMakeFiles /home/max/Documents/GitHub/IR2121/Navigation/nav/build/goal/CMakeFiles/progress.marks
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/usuario/Documentos/GitHub/IR2121/Navigation/nav/build/goal/CMakeFiles /home/usuario/Documentos/GitHub/IR2121/Navigation/nav/build/goal/CMakeFiles/progress.marks
 	$(MAKE) -f CMakeFiles/Makefile2 all
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/max/Documents/GitHub/IR2121/Navigation/nav/build/goal/CMakeFiles 0
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/usuario/Documentos/GitHub/IR2121/Navigation/nav/build/goal/CMakeFiles 0
 .PHONY : all
 
 # The main clean target
