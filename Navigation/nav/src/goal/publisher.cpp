@@ -25,10 +25,10 @@ int main(int argc, char * argv[])
 
   rclcpp::WallRate loop_rate(500ms);
   
-  double px[3]={-1,8.5,7.5}, py[3]={3,5,-2},pxs,pys;
+  double px[4]={-10.6,2.2,-19.3,-19.1}, py[4]={-3.5,-6.2,-6.8,-0.3},pxs,pys;
   int i=0;
   
-  while (rclcpp::ok() & (i<3)) {
+  while (rclcpp::ok() & (i<4)) {
     message.pose.position.x = px[i];
     message.pose.position.y = py[i];
     publisher->publish(message);
